@@ -56,7 +56,7 @@ export default function Hero() {
         </p>
 
         <div className="hero__ctas hero__reveal hero__reveal--ctas">
-          <a className="btn-pill btn-pill--ghost" href="#contact">
+          <a className="btn-pill btn-pill--ghost" href="#books">
             <span className="btn-pill__label">신간안내</span>
             <ArrowUpRight className="btn-pill__icon" size={18} strokeWidth={1.8} aria-hidden="true" />
           </a>

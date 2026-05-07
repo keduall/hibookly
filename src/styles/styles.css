@@ -407,6 +407,11 @@ button {
   transition-delay: 800ms;
 }
 
+.hero__reveal--ctas,
+.hero.is-ready .hero__reveal--ctas {
+  filter: none;
+}
+
 .hero__reveal--ctas {
   transition-delay: 1100ms;
 }

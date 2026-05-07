@@ -4,6 +4,7 @@ export const navLinks = [
   { href: '#about', label: '소개' },
   { href: '#story', label: '연혁' },
   { href: '#network', label: '네트워크' },
+  { href: '#showcase', label: '쇼케이스' },
   { href: '#books', label: '도서' },
   { href: '#news', label: '소식' },
   { href: '#contact', label: '문의' },

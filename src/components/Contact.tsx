@@ -72,7 +72,7 @@ export default function Contact() {
 
       <div className="section__inner">
         <Reveal as="h2" className="section__title contact__title" delay={120}>
-          귀사의 <span className="serif-em serif-em--muted">리스트</span>를 알려주세요.
+          문의하기
         </Reveal>
 
         <div className="contact__grid">

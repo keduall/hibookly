@@ -31,7 +31,7 @@ export default function Story() {
               <h3 className="story-card__title">Bookly</h3>
               <p className="story-card__body">2024년 4월 설립. 위즈덤 생태계의 해외 사업을 담당하며 문학, 웹툰, 전자책, 오디오북을 하나의 에이전시로 묶습니다.</p>
             </div>
-            <div className="story-card__quote">조용한 동반자. <span className="story-card__quote-muted">진중한 작업.</span></div>
+            <div className="story-card__quote">이야기는, <span className="story-card__quote-muted">여기서 계속됩니다.</span></div>
           </Reveal>
         </div>
 

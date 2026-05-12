@@ -17,8 +17,8 @@ function NetCard({ card, delay }: { card: NetworkCard; delay: number }) {
     card.yearMode === 'fixed' && card.yearText
       ? `${t('network.foundedPrefix')} ${card.yearText}`
       : card.yearMode === 'tbd'
-      ? t('network.yearTBD')
-      : t('network.yearNew');
+        ? t('network.yearTBD')
+        : t('network.yearNew');
 
   return (
     <Reveal
@@ -86,11 +86,10 @@ export default function Network() {
                 onClick={() => setTab(t0)}
                 role="tab"
                 aria-selected={active}
-                className={`py-[14px] mx-5 -mb-px max-md:shrink-0 max-md:mx-0 max-md:mr-6 text-sm font-medium cursor-pointer tracking-[0.005em] border-b transition-[color,border-color] duration-[400ms] ease-out-soft ${
-                  active
+                className={`py-[14px] mx-5 -mb-px max-md:shrink-0 max-md:mx-0 max-md:mr-6 text-md font-medium cursor-pointer tracking-[0.005em] border-b transition-[color,border-color] duration-[400ms] ease-out-soft ${active
                     ? 'text-night-fg-1 border-night-fg-1'
                     : 'text-night-fg-3 border-transparent'
-                }`}
+                  }`}
               >
                 {t(`network.tabs.${t0}`)}
               </button>

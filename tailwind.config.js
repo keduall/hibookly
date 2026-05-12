@@ -162,22 +162,12 @@ export default {
           from: { backgroundPosition: '200% 0' },
           to: { backgroundPosition: '-200% 0' },
         },
-        'showcase-scroll-up': {
-          from: { transform: 'translateY(0)' },
-          to: { transform: 'translateY(-50%)' },
-        },
-        'showcase-scroll-down': {
-          from: { transform: 'translateY(-50%)' },
-          to: { transform: 'translateY(0)' },
-        },
       },
       animation: {
         'mobile-menu-in': 'mobile-menu-in 240ms cubic-bezier(0.16, 1, 0.3, 1)',
         'book-modal-fade': 'book-modal-fade 200ms cubic-bezier(0.16, 1, 0.3, 1)',
         'book-modal-rise': 'book-modal-rise 320ms cubic-bezier(0.16, 1, 0.3, 1)',
         'book-modal-shimmer': 'book-modal-shimmer 1400ms linear infinite',
-        'showcase-scroll-up': 'showcase-scroll-up 56s linear infinite',
-        'showcase-scroll-down': 'showcase-scroll-down 56s linear infinite',
       },
     },
   },

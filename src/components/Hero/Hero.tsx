@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import { ArrowUpRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import BlurText from '../ui/BlurText';
 
@@ -32,9 +31,6 @@ export default function Hero() {
   const revealState = isReady
     ? 'opacity-100 blur-0 translate-y-0'
     : 'opacity-0 blur-[10px] translate-y-5';
-  const ctaInner = `relative z-[1] transition-[opacity,transform] duration-700 ease-out-soft delay-[1100ms] ${
-    isReady ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-3'
-  }`;
 
   return (
     <section
@@ -74,28 +70,9 @@ export default function Hero() {
         </h1>
 
         <p
-          className={`${revealBase} ${revealState} delay-[800ms] font-serif font-light text-fluid-lede max-md:text-sm text-white/[0.82] m-0 mb-10 [word-break:keep-all]`}
+          className={`${revealBase} ${revealState} delay-[800ms] font-serif font-light text-fluid-lede max-md:text-sm text-white/[0.82] m-0 [word-break:keep-all]`}
           dangerouslySetInnerHTML={{ __html: t('hero.lede') }}
         />
-
-        <div
-          className={`flex gap-4 flex-wrap justify-center transition-[visibility] duration-0 ${
-            isReady ? 'visible' : 'invisible delay-[1100ms]'
-          }`}
-        >
-          <a
-            href="#books"
-            className="group/cta relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-pill text-base font-medium px-[50px] py-[18px] max-md:px-9 max-md:py-3 max-md:text-sm text-white bg-white/[0.01] [background-blend-mode:luminosity] backdrop-blur-[4px] shadow-btn-glow transition-[background,color,transform] duration-[400ms] ease-out-soft hover:text-white before:content-[''] before:absolute before:inset-0 before:rounded-[inherit] before:p-[1.4px] before:[background:linear-gradient(180deg,rgba(255,255,255,0.45)_0%,rgba(255,255,255,0.15)_20%,rgba(255,255,255,0)_40%,rgba(255,255,255,0)_60%,rgba(255,255,255,0.15)_80%,rgba(255,255,255,0.45)_100%)] before:[-webkit-mask:linear-gradient(#fff_0_0)_content-box,linear-gradient(#fff_0_0)] before:[-webkit-mask-composite:xor] before:[mask-composite:exclude] before:pointer-events-none"
-          >
-            <span className={ctaInner}>{t('hero.ctaBooks')}</span>
-            <ArrowUpRight
-              size={18}
-              strokeWidth={1.8}
-              aria-hidden="true"
-              className={`${ctaInner} flex-none transition-transform duration-300 ease-out-soft group-hover/cta:translate-x-[2px] group-hover/cta:-translate-y-[2px]`}
-            />
-          </a>
-        </div>
       </div>
     </section>
   );

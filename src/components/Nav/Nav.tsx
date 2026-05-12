@@ -71,11 +71,10 @@ export default function Nav() {
           </div>
           <a
             href="#contact"
-            className="font-medium px-5 py-[9px] rounded-pill bg-white/20 outline outline-1 outline-white/50 text-white no-underline transition-[background,color] duration-[400ms] ease-out-soft
-              max-md:hidden
-              group-hover/nav:bg-night group-hover/nav:text-paper group-hover/nav:outline-0
-              group-[.is-solid]/nav:bg-night group-[.is-solid]/nav:text-paper group-[.is-solid]/nav:outline-0"
+            className="inline-flex h-[42px] items-center gap-2 font-medium px-5 rounded-pill bg-night text-paper no-underline transition-[background,color] duration-[400ms] ease-out-soft
+              max-[980px]:hidden hover:bg-ink-1"
           >
+            <Mail size={18} strokeWidth={1.9} aria-hidden="true" />
             {t('nav.contactCta')}
           </a>
           <button

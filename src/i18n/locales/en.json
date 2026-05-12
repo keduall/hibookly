@@ -24,8 +24,7 @@
   "hero": {
     "eyebrow": "Bookly · International Rights Agency",
     "headline": "Connecting knowledge,\nbridging the world",
-    "lede": "An international rights agency built on a decade of trust at WisdomSeller.<br />Bringing Korean stories to the world.",
-    "ctaBooks": "New titles"
+    "lede": "An international rights agency built on a decade of trust at WisdomSeller.<br />Bringing Korean stories to the world."
   },
   "about": {
     "stats": {
@@ -35,20 +34,20 @@
     },
     "services": {
       "01": {
-        "title": "International rights representation",
-        "body": "Connecting premium Korean publishing content with the global market."
+        "title": "Global Copyright Agency",
+        "body": "Bridging premium Korean publishing content with the global market."
       },
       "02": {
-        "title": "Market development",
-        "body": "Cultivating opportunities in Vietnam and Southeast Asia, where rights brokerage remains underdeveloped."
+        "title": "Pioneering Emerging Markets",
+        "body": "Opening Vietnam and Southeast Asia as the next growth markets."
       },
       "03": {
-        "title": "Publishing consulting & translation",
-        "body": "Supporting contracts, translation, and localization tied to rights brokerage."
+        "title": "One-Stop Localization Solution",
+        "body": "Contracts, translation, and localization for seamless global publishing."
       },
       "04": {
-        "title": "Strategic partnerships",
-        "body": "Building long-term partnerships with global publishers."
+        "title": "Strategic Global Partnership",
+        "body": "Building long-term, trust-based networks with global publishers."
       }
     }
   },

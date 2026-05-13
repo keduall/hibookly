@@ -175,14 +175,19 @@
 
   .lang-switcher__trigger {
     @apply appearance-none inline-flex h-[42px] min-w-[92px] items-center gap-[7px] whitespace-nowrap px-0 rounded-pill bg-transparent border border-transparent text-sm font-semibold leading-none cursor-pointer shadow-none;
-    color: theme('colors.night.DEFAULT');
+    color: rgba(255, 255, 255, 0.88);
     transition: border-color 200ms cubic-bezier(0.16, 1, 0.3, 1),
       background 200ms cubic-bezier(0.16, 1, 0.3, 1),
+      color 200ms cubic-bezier(0.16, 1, 0.3, 1),
       box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  .lang-switcher__trigger:hover,
-  .lang-switcher__trigger[aria-expanded='true'] {
+  .nav-root:hover .lang-switcher__trigger,
+  .nav-root.is-solid .lang-switcher__trigger {
+    color: theme('colors.night.DEFAULT');
+  }
+
+  .lang-switcher__trigger:hover {
     background: rgba(255, 255, 255, 0.12);
   }
 
@@ -198,8 +203,7 @@
     color: theme('colors.ink.1');
   }
 
-  .mobile-menu-lang .lang-switcher__trigger:hover,
-  .mobile-menu-lang .lang-switcher__trigger[aria-expanded='true'] {
+  .mobile-menu-lang .lang-switcher__trigger:hover {
     background: rgba(20, 17, 12, 0.06);
   }
 
@@ -215,6 +219,44 @@
 
   .lang-switcher__option.is-active {
     @apply bg-bookly-wash text-bookly-primary;
+  }
+
+  .mobile-lang-selector {
+    @apply mx-auto flex w-full max-w-[320px] items-center justify-center gap-8;
+  }
+
+  .mobile-lang-selector__option {
+    @apply appearance-none border-0 bg-transparent px-0 py-2 text-center text-sm font-medium leading-none text-ink-2 cursor-pointer;
+    transition: color 180ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .mobile-lang-selector__option:hover {
+    @apply text-bookly-primary;
+  }
+
+  .mobile-lang-selector__option.is-active {
+    @apply text-bookly-primary;
+  }
+
+  .partner-logo-image {
+    filter: grayscale(100%) contrast(0.82) brightness(0.92);
+    opacity: 0.72;
+    transition: filter 360ms cubic-bezier(0.16, 1, 0.3, 1),
+      opacity 360ms cubic-bezier(0.16, 1, 0.3, 1),
+      transform 360ms cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .partner-card:hover .partner-logo-image,
+  .partner-card:focus-within .partner-logo-image {
+    filter: grayscale(0%);
+    opacity: 1;
+    transform: translateY(-2px);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .partner-logo-image {
+      transition: none;
+    }
   }
 
   /* BookModal body custom scrollbar */

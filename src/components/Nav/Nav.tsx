@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Mail, Menu, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { navLinks } from '../../content/homepage';
-import LanguageSwitcher from '../ui/LanguageSwitcher';
+import LanguageSwitcher, { MobileLanguageSelector } from '../ui/LanguageSwitcher';
 
 export default function Nav() {
   const { t } = useTranslation();
@@ -35,6 +35,7 @@ export default function Nav() {
       <nav
         aria-label={t('nav.ariaLabel')}
         className={`nav-root group/nav fixed inset-x-0 top-0 h-header z-[100] grid grid-cols-[1fr_auto_1fr] items-center px-gutter
+          max-md:flex max-md:justify-between max-md:px-5
           bg-transparent border-b border-transparent backdrop-blur-0
           transition-[background,backdrop-filter,border-color] duration-600 ease-out-soft
           hover:bg-white/[0.85] hover:backdrop-blur-[16px] hover:border-b-line
@@ -139,8 +140,8 @@ export default function Nav() {
               </li>
             ))}
           </ul>
-          <div className="mobile-menu-lang mt-auto px-gutter py-6 flex justify-center">
-            <LanguageSwitcher />
+          <div className="mt-auto px-5 py-5">
+            <MobileLanguageSelector />
           </div>
         </div>
       )}

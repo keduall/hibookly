@@ -2,6 +2,7 @@ import { useEffect, useState, type FormEvent } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import Reveal from '../ui/Reveal';
+import ContentSection from '../ui/ContentSection';
 import { managers, offices } from '../../content/homepage';
 
 const CONTACT_EMAIL = 'info@hibookly.com';
@@ -79,150 +80,142 @@ export default function Contact() {
   };
 
   return (
-    <section
+    <ContentSection
       id="contact"
-      className="relative overflow-hidden bg-night text-night-fg-1 px-gutter py-section-y min-h-svh max-md:min-h-0 max-md:py-[88px]"
+      tone="dark"
+      title={t('contact.title')}
+      className="relative overflow-hidden bg-night text-night-fg-1"
     >
-      <div className="max-w-container mx-auto relative">
-        <Reveal
-          as="h2"
-          delay={120}
-          className="text-fluid-h2 max-md:text-fluid-mobile-h2 font-medium leading-[1.16] tracking-snug m-0 mb-18 max-md:mb-12 max-w-container-narrow text-left text-night-fg-1"
-        >
-          {t('contact.title')}
-        </Reveal>
+      <div className="grid grid-cols-2 gap-20 max-[980px]:grid-cols-1 max-[980px]:gap-14">
+        <div className="flex flex-col gap-14 min-w-0">
+          <Reveal className="flex flex-col" delay={120}>
+            <div className="grid grid-cols-2 gap-y-7 gap-x-6 max-md:mb-14 max-[480px]:gap-x-[18px] max-[480px]:gap-y-[30px]">
+              {managers.map((m, i) => (
+                <Reveal key={m.id} className="pt-0" delay={i * 80}>
+                  <div className="text-bookly-soft tracking-[0.06em] mb-[14px] max-md:text-xs">
+                    {t(`contact.managers.${m.id}.region`)}
+                  </div>
+                  <h4 className="text-xl font-medium m-0 mb-1.5 text-night-fg-1">
+                    {t(`contact.managers.${m.id}.name`)}
+                  </h4>
+                  <a
+                    href={`mailto:${m.email}`}
+                    className="text-sm text-night-fg-1/70 pb-px no-underline hover:text-night-fg-1 max-[480px]:[overflow-wrap:anywhere]"
+                  >
+                    {m.email}
+                  </a>
+                </Reveal>
+              ))}
+            </div>
+          </Reveal>
 
-        <div className="grid grid-cols-2 gap-20 max-[980px]:grid-cols-1 max-[980px]:gap-14">
-          <div className="flex flex-col gap-14 min-w-0">
-            <Reveal className="flex flex-col" delay={120}>
-              <div className="grid grid-cols-2 gap-y-7 gap-x-6 max-md:mb-14 max-[480px]:gap-x-[18px] max-[480px]:gap-y-[30px]">
-                {managers.map((m, i) => (
-                  <Reveal key={m.id} className="pt-0" delay={i * 80}>
-                    <div className="text-bookly-soft tracking-[0.06em] mb-[14px] max-md:text-xs">
-                      {t(`contact.managers.${m.id}.region`)}
-                    </div>
-                    <h4 className="text-xl font-medium m-0 mb-1.5 text-night-fg-1">
-                      {t(`contact.managers.${m.id}.name`)}
-                    </h4>
-                    <a
-                      href={`mailto:${m.email}`}
-                      className="text-sm text-night-fg-1/70 pb-px no-underline hover:text-night-fg-1 max-[480px]:[overflow-wrap:anywhere]"
-                    >
-                      {m.email}
-                    </a>
-                  </Reveal>
-                ))}
-              </div>
-            </Reveal>
+          <Reveal className="flex flex-col" delay={160}>
+            <div className="font-medium uppercase tracking-widest text-night-fg-1/50 pb-[18px] mb-8 border-b border-night-line-strong" />
+            <div className="grid grid-cols-1 gap-4 max-md:gap-7 max-md:mb-14">
+              {offices.map((o, i) => (
+                <Reveal key={o.id} delay={i * 100}>
+                  <div className="font-serif text-base font-normal text-night-fg-1 mb-3">
+                    {t(`contact.offices.${o.id}.city`)}
+                  </div>
+                  <p className="text-sm leading-[1.6] text-night-fg-1/65 m-0">
+                    {t(`contact.offices.${o.id}.addr`)}
+                  </p>
+                </Reveal>
+              ))}
+            </div>
+          </Reveal>
+        </div>
 
-            <Reveal className="flex flex-col" delay={160}>
-              <div className="font-medium uppercase tracking-widest text-night-fg-1/50 pb-[18px] mb-8 border-b border-night-line-strong" />
-              <div className="grid grid-cols-1 gap-4 max-md:gap-7 max-md:mb-14">
-                {offices.map((o, i) => (
-                  <Reveal key={o.id} delay={i * 100}>
-                    <div className="font-serif text-base font-normal text-night-fg-1 mb-3">
-                      {t(`contact.offices.${o.id}.city`)}
-                    </div>
-                    <p className="text-sm leading-[1.6] text-night-fg-1/65 m-0">
-                      {t(`contact.offices.${o.id}.addr`)}
-                    </p>
-                  </Reveal>
-                ))}
-              </div>
-            </Reveal>
-          </div>
-
-          <div className="flex flex-col gap-14 min-w-0">
-            <Reveal className="flex flex-col" delay={140}>
-              <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
-                <input
-                  className="absolute -left-[9999px] opacity-0 pointer-events-none"
-                  type="checkbox"
-                  name="botcheck"
-                  tabIndex={-1}
-                  autoComplete="off"
-                />
-                <div className="grid grid-cols-2 gap-6 max-[700px]:grid-cols-1">
-                  <label className="flex flex-col gap-[10px]">
-                    <span className="text-sm font-semibold tracking-[0.14em] uppercase text-night-fg-1/55">
-                      {t('contact.form.name')}
-                    </span>
-                    <input
-                      className={inputClasses}
-                      type="text"
-                      name="name"
-                      placeholder={t('contact.form.namePlaceholder')}
-                      autoComplete="name"
-                      required
-                    />
-                  </label>
-                  <label className="flex flex-col gap-[10px]">
-                    <span className="text-sm font-semibold tracking-[0.14em] uppercase text-night-fg-1/55">
-                      {t('contact.form.email')}
-                    </span>
-                    <input
-                      className={inputClasses}
-                      type="email"
-                      name="email"
-                      placeholder="name@example.com"
-                      autoComplete="email"
-                      required
-                    />
-                  </label>
-                </div>
-
+        <div className="flex flex-col gap-14 min-w-0">
+          <Reveal className="flex flex-col" delay={140}>
+            <form className="flex flex-col gap-6" onSubmit={handleSubmit}>
+              <input
+                className="absolute -left-[9999px] opacity-0 pointer-events-none"
+                type="checkbox"
+                name="botcheck"
+                tabIndex={-1}
+                autoComplete="off"
+              />
+              <div className="grid grid-cols-2 gap-6 max-[700px]:grid-cols-1">
                 <label className="flex flex-col gap-[10px]">
                   <span className="text-sm font-semibold tracking-[0.14em] uppercase text-night-fg-1/55">
-                    {t('contact.form.message')}
+                    {t('contact.form.name')}
                   </span>
-                  <textarea
-                    className={`${inputClasses} resize-y min-h-[140px]`}
-                    name="message"
-                    rows={6}
-                    placeholder={t('contact.form.messagePlaceholder')}
+                  <input
+                    className={inputClasses}
+                    type="text"
+                    name="name"
+                    placeholder={t('contact.form.namePlaceholder')}
+                    autoComplete="name"
                     required
                   />
                 </label>
+                <label className="flex flex-col gap-[10px]">
+                  <span className="text-sm font-semibold tracking-[0.14em] uppercase text-night-fg-1/55">
+                    {t('contact.form.email')}
+                  </span>
+                  <input
+                    className={inputClasses}
+                    type="email"
+                    name="email"
+                    placeholder="name@example.com"
+                    autoComplete="email"
+                    required
+                  />
+                </label>
+              </div>
 
-                <div className="flex items-center justify-between gap-6 mt-2 flex-wrap max-[700px]:flex-col max-[700px]:items-stretch">
-                  <p className="m-0 text-[13px] text-night-fg-1/50 [&_span]:text-night-fg-1 [&_span]:transition-[border-color] [&_span]:duration-240 [&_span]:ease-out-soft">
-                    <Trans
-                      i18nKey="contact.form.hint"
-                      values={{ email: CONTACT_EMAIL }}
-                      components={{ span: <span /> }}
-                    />
-                  </p>
-                  <button
-                    type="submit"
-                    disabled={submitState === 'sending'}
-                    className="inline-flex items-center justify-center gap-2 cursor-pointer border-0 font-[inherit] whitespace-nowrap bg-bookly-primary text-paper px-7 py-[14px] rounded-pill text-sm font-medium transition-[background,color,border-color,transform] duration-[400ms] ease-out-soft hover:bg-bookly-mid hover:text-paper disabled:cursor-progress disabled:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-bookly-soft focus-visible:outline-offset-[3px] max-[700px]:w-full"
-                  >
-                    <span className="relative z-[1]">
-                      {submitState === 'sending'
-                        ? t('contact.form.sending')
-                        : t('contact.form.send')}
-                    </span>
-                    <ArrowUpRight
-                      className="relative z-[1] flex-none transition-transform duration-300 ease-out-soft"
-                      size={18}
-                      strokeWidth={1.8}
-                      aria-hidden="true"
-                    />
-                  </button>
-                </div>
-                <p
-                  className={`min-h-5 -mt-2 text-[13px] leading-[1.5] ${STATUS_COLOR[submitState]}`}
-                  role="status"
-                  aria-live="polite"
-                >
-                  {submitState === 'success' && t('contact.form.successMsg')}
-                  {submitState === 'error' && t('contact.form.errorMsg')}
+              <label className="flex flex-col gap-[10px]">
+                <span className="text-sm font-semibold tracking-[0.14em] uppercase text-night-fg-1/55">
+                  {t('contact.form.message')}
+                </span>
+                <textarea
+                  className={`${inputClasses} resize-y min-h-[140px]`}
+                  name="message"
+                  rows={6}
+                  placeholder={t('contact.form.messagePlaceholder')}
+                  required
+                />
+              </label>
+
+              <div className="flex items-center justify-between gap-6 mt-2 flex-wrap max-[700px]:flex-col max-[700px]:items-stretch">
+                <p className="m-0 text-[13px] text-night-fg-1/50 [&_span]:text-night-fg-1 [&_span]:transition-[border-color] [&_span]:duration-240 [&_span]:ease-out-soft">
+                  <Trans
+                    i18nKey="contact.form.hint"
+                    values={{ email: CONTACT_EMAIL }}
+                    components={{ span: <span /> }}
+                  />
                 </p>
-              </form>
-            </Reveal>
-          </div>
+                <button
+                  type="submit"
+                  disabled={submitState === 'sending'}
+                  className="inline-flex items-center justify-center gap-2 cursor-pointer border-0 font-[inherit] whitespace-nowrap bg-bookly-primary text-paper px-7 py-[14px] rounded-pill text-sm font-medium transition-[background,color,border-color,transform] duration-[400ms] ease-out-soft hover:bg-bookly-mid hover:text-paper disabled:cursor-progress disabled:opacity-60 focus-visible:outline focus-visible:outline-2 focus-visible:outline-bookly-soft focus-visible:outline-offset-[3px] max-[700px]:w-full"
+                >
+                  <span className="relative z-[1]">
+                    {submitState === 'sending'
+                      ? t('contact.form.sending')
+                      : t('contact.form.send')}
+                  </span>
+                  <ArrowUpRight
+                    className="relative z-[1] flex-none transition-transform duration-300 ease-out-soft"
+                    size={18}
+                    strokeWidth={1.8}
+                    aria-hidden="true"
+                  />
+                </button>
+              </div>
+              <p
+                className={`min-h-5 -mt-2 text-[13px] leading-[1.5] ${STATUS_COLOR[submitState]}`}
+                role="status"
+                aria-live="polite"
+              >
+                {submitState === 'success' && t('contact.form.successMsg')}
+                {submitState === 'error' && t('contact.form.errorMsg')}
+              </p>
+            </form>
+          </Reveal>
         </div>
       </div>
-    </section>
+    </ContentSection>
   );
 }

@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { FreeMode, Mousewheel } from 'swiper/modules';
 import { useTranslation } from 'react-i18next';
 import Reveal from '../ui/Reveal';
+import ContentSection from '../ui/ContentSection';
 import BookModal from '../BookModal';
 import {
   bookFilters,
@@ -23,42 +24,37 @@ export default function Books() {
   const visible = books.filter((b) => filter === '전체' || b.genre === filter);
 
   return (
-    <section
+    <ContentSection
       id="books"
-      className="bg-paper px-gutter py-section-y min-h-svh max-md:min-h-0 max-md:py-[88px]"
+      title={
+        <>
+          {t('books.titlePrefix')}
+          <span className="font-serif font-normal">{t('books.titleEm')}</span>
+        </>
+      }
+      className="bg-paper"
     >
-      <div className="max-w-container mx-auto px-0">
-        <Reveal
-          className="flex flex-col justify-center items-center flex-wrap gap-8 text-center mb-12 max-md:mb-9"
-          delay={120}
-        >
-          <h2 className="text-fluid-h2 max-md:text-fluid-mobile-h2 font-medium leading-[1.16] tracking-snug m-0 max-w-[720px] mx-auto text-center">
-            {t('books.titlePrefix')}
-            <span className="font-serif font-normal">{t('books.titleEm')}</span>
-          </h2>
-          <div className="flex justify-center gap-2 flex-wrap" role="tablist">
-            {bookFilters.map((f) => {
-              const active = filter === f.value;
-              return (
-                <button
-                  key={f.key}
-                  type="button"
-                  onClick={() => setFilter(f.value)}
-                  className={`font-medium px-[14px] py-[7px] rounded-pill cursor-pointer transition-[background,color,border-color] duration-[400ms] ease-out-soft max-md:!text-xs ${
-                    active
-                      ? 'bg-ink-1 text-paper border border-ink-1'
-                      : 'bg-transparent text-ink-2 border border-line-strong hover:border-ink-3'
-                  }`}
-                >
-                  {t(`books.filters.${f.key}`)}
-                </button>
-              );
-            })}
-          </div>
-        </Reveal>
-      </div>
+      <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={160} role="tablist">
+        {bookFilters.map((f) => {
+          const active = filter === f.value;
+          return (
+            <button
+              key={f.key}
+              type="button"
+              onClick={() => setFilter(f.value)}
+              className={`font-medium px-[14px] py-[7px] rounded-pill cursor-pointer transition-[background,color,border-color] duration-[400ms] ease-out-soft max-md:!text-xs ${
+                active
+                  ? 'bg-ink-1 text-paper border border-ink-1'
+                  : 'bg-transparent text-ink-2 border border-line-strong hover:border-ink-3'
+              }`}
+            >
+              {t(`books.filters.${f.key}`)}
+            </button>
+          );
+        })}
+      </Reveal>
 
-      <div className="max-w-container mx-auto px-gutter pt-2 pb-6 overflow-x-clip [&_.swiper]:overflow-visible">
+      <div className="pt-2 pb-6 overflow-x-clip [&_.swiper]:overflow-visible">
         <Swiper
           key={filter}
           modules={[FreeMode, Mousewheel]}
@@ -116,6 +112,6 @@ export default function Books() {
       </div>
 
       {openBook && <BookModal book={openBook} onClose={() => setOpenBook(null)} />}
-    </section>
+    </ContentSection>
   );
 }

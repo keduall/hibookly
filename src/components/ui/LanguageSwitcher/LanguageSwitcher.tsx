@@ -9,6 +9,14 @@ const languageLabels: Record<Lang, string> = {
   vi: 'Tiếng Việt',
 };
 
+function changeLanguage(lang: Lang, current: Lang, i18n: ReturnType<typeof useTranslation>['i18n']) {
+  if (lang === current) return;
+
+  const next = buildLangPath(lang);
+  window.history.replaceState(null, '', next + window.location.hash);
+  i18n.changeLanguage(lang);
+}
+
 export default function LanguageSwitcher() {
   const { t, i18n } = useTranslation();
   const current = i18n.language as Lang;
@@ -37,11 +45,7 @@ export default function LanguageSwitcher() {
 
   const onChange = (lang: Lang) => {
     setOpen(false);
-    if (lang !== current) {
-      const next = buildLangPath(lang);
-      window.history.replaceState(null, '', next + window.location.hash);
-      i18n.changeLanguage(lang);
-    }
+    changeLanguage(lang, current, i18n);
   };
 
   return (
@@ -74,6 +78,28 @@ export default function LanguageSwitcher() {
           ))}
         </div>
       )}
+    </div>
+  );
+}
+
+export function MobileLanguageSelector() {
+  const { t, i18n } = useTranslation();
+  const current = i18n.language as Lang;
+
+  return (
+    <div className="mobile-lang-selector" role="radiogroup" aria-label={t('languageSwitcher.ariaLabel')}>
+      {SUPPORTED_LANGS.map((lang) => (
+        <button
+          key={lang}
+          type="button"
+          className={`mobile-lang-selector__option${lang === current ? ' is-active' : ''}`}
+          role="radio"
+          aria-checked={lang === current}
+          onClick={() => changeLanguage(lang, current, i18n)}
+        >
+          {languageLabels[lang]}
+        </button>
+      ))}
     </div>
   );
 }

@@ -1,1 +1,1 @@
-export { default } from './LanguageSwitcher';
+export { default, MobileLanguageSelector } from './LanguageSwitcher';

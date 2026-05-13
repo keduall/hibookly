@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import Reveal from '../ui/Reveal';
+import ContentSection from '../ui/ContentSection';
 
 type ShowcaseCover = {
   title: string;
@@ -52,42 +52,28 @@ export default function Showcase() {
   const { t } = useTranslation();
 
   return (
-    <section
+    <ContentSection
       id="showcase"
-      aria-label={t('showcase.ariaLabel')}
-      className="relative overflow-hidden px-gutter pt-showcase-py-top pb-showcase-py-bottom max-[640px]:pt-[72px] max-[640px]:pb-[96px]"
+      title={
+        <>
+          {t('showcase.titleLine1')}
+          <br />
+          {t('showcase.titleLine2')}
+          <br />
+          {t('showcase.titleLine3')}
+        </>
+      }
+      description={t('showcase.subtitle')}
+      className="relative overflow-hidden"
     >
-      <div className="relative z-[1] mx-auto grid w-full max-w-[1280px] gap-[clamp(40px,5vw,64px)]">
-        <div className="text-ink-1 max-w-[680px]">
-          <Reveal
-            as="h2"
-            delay={120}
-            className="m-0 max-w-[480px] text-fluid-h2 max-md:text-fluid-mobile-h2 font-medium leading-[1.16] tracking-snug"
-          >
-            {t('showcase.titleLine1')}
-            <br />
-            {t('showcase.titleLine2')}
-            <br />
-            {t('showcase.titleLine3')}
-          </Reveal>
-          <Reveal
-            as="p"
-            delay={220}
-            className="mb-0 mt-7 max-w-[480px] leading-[1.7] text-ink-3"
-          >
-            {t('showcase.subtitle')}
-          </Reveal>
-        </div>
-
-        <div
-          aria-hidden="true"
-          className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-6 lg:gap-[18px]"
-        >
-          {showcaseCovers.map((cover) => (
-            <ShowcaseCoverCard key={cover.file} {...cover} />
-          ))}
-        </div>
+      <div
+        aria-hidden="true"
+        className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-6 lg:gap-[18px]"
+      >
+        {showcaseCovers.map((cover) => (
+          <ShowcaseCoverCard key={cover.file} {...cover} />
+        ))}
       </div>
-    </section>
+    </ContentSection>
   );
 }

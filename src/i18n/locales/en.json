@@ -4,16 +4,7 @@
     "home": "Bookly home",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
-    "contactCta": "Contact",
-    "links": {
-      "about": "About",
-      "story": "Story",
-      "network": "Network",
-      "showcase": "Showcase",
-      "books": "Books",
-      "news": "News",
-      "contact": "Contact"
-    }
+    "contactCta": "Contact"
   },
   "languageSwitcher": {
     "ariaLabel": "Select language",
@@ -65,6 +56,27 @@
       "body": "Established in April 2024. Leading the international business of the WisdomSeller ecosystem, uniting literature, webtoons, e-books, and audiobooks under one agency.",
       "quoteMain": "The story, ",
       "quoteMuted": "continues here."
+    }
+  },
+  "legacyTimeline": {
+    "title": "Built on trust, expanding across borders",
+    "description": "Bookly's story is easier to follow as a journey than as a single paragraph. From WisdomSeller's operational foundation to cross-border content exchange, each step shows how that trust now scales.",
+    "items": {
+      "trust": {
+        "kicker": "Legacy of Trust",
+        "title": "A Foundation of Trust",
+        "body": "Bookly is built on the experience of WisdomSeller, founded in 2013. For more than a decade, that foundation has earned trust by supplying books to government agencies, schools, and military organizations with strict standards."
+      },
+      "operations": {
+        "kicker": "Professional Operations",
+        "title": "Transparent, Professional Operations",
+        "body": "Through official procurement platforms including KONEPS, the Defense e-Procurement System, and School Market, the company has maintained fair transactions while expanding into MARC data construction and specialized equipment services."
+      },
+      "expansion": {
+        "kicker": "Mission & Strategy",
+        "title": "Bookly's Global Expansion",
+        "body": "Bookly connects Korean authors and publishers with wider readerships across Asia, supporting books, eBooks, audiobooks, webtoons, and webnovels."
+      }
     }
   },
   "network": {
@@ -184,20 +196,20 @@
   "contact": {
     "title": "Contact us",
     "managers": {
-      "english": {
-        "region": "English-speaking markets",
+      "korean": {
+        "region": "Korea",
         "name": "Camino"
       },
-      "sea": {
-        "region": "Southeast Asia",
-        "name": "Chloe"
+      "english": {
+        "region": "English-speaking markets",
+        "name": "chy.huynh"
       },
       "chinese": {
         "region": "Chinese-speaking markets",
-        "name": "Gada"
+        "name": "Gadak"
       },
-      "japanese": {
-        "region": "Japanese-speaking markets",
+      "seaJapanese": {
+        "region": "Southeast Asia & Japanese-speaking markets",
         "name": "Lana"
       }
     },

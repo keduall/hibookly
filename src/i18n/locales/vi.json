@@ -3,5 +3,26 @@
     "ko": "한국어",
     "en": "English",
     "vi": "Tiếng Việt"
+  },
+  "legacyTimeline": {
+    "title": "Bắt đầu từ niềm tin, mở rộng ra thế giới",
+    "description": "Câu chuyện của Bookly phù hợp hơn khi được đọc như một hành trình. Từ nền tảng vận hành của WisdomSeller đến trao đổi nội dung xuyên biên giới, mỗi bước cho thấy niềm tin đó đang được mở rộng.",
+    "items": {
+      "trust": {
+        "kicker": "Legacy of Trust",
+        "title": "Nền tảng của niềm tin",
+        "body": "Bookly được xây dựng trên kinh nghiệm của WisdomSeller, thành lập năm 2013. Hơn 10 năm qua, nền tảng này đã tạo dựng niềm tin khi cung cấp sách cho cơ quan chính phủ, trường học và đơn vị quân đội có tiêu chuẩn nghiêm ngặt."
+      },
+      "operations": {
+        "kicker": "Professional Operations",
+        "title": "Vận hành minh bạch",
+        "body": "Thông qua các nền tảng đấu thầu chính thức như KONEPS, hệ thống mua sắm quốc phòng điện tử và School Market, công ty duy trì giao dịch công bằng, đồng thời mở rộng sang dữ liệu MARC và dịch vụ thiết bị chuyên dụng."
+      },
+      "expansion": {
+        "kicker": "Mission & Strategy",
+        "title": "Bookly mở rộng toàn cầu",
+        "body": "Bookly kết nối tác giả và nhà xuất bản Hàn Quốc với độc giả rộng hơn tại châu Á, hỗ trợ sách in, eBook, audiobook, webtoon và webnovel."
+      }
+    }
   }
 }

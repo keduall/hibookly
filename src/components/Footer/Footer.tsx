@@ -11,7 +11,7 @@ export default function Footer() {
         <div className="grid grid-cols-[1.4fr_1fr_1fr] max-md:grid-cols-1 gap-12 max-md:gap-8 pb-10 max-md:pb-8">
           <div className="flex flex-col gap-[14px]">
             <img
-              className="self-start h-[22px] w-auto"
+              className="self-start h-[46px] w-auto"
               src="/assets/logo_dark.png"
               alt="Bookly"
             />

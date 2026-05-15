@@ -4,16 +4,7 @@
     "home": "Bookly 홈",
     "openMenu": "메뉴 열기",
     "closeMenu": "메뉴 닫기",
-    "contactCta": "문의하기",
-    "links": {
-      "about": "소개",
-      "story": "연혁",
-      "network": "네트워크",
-      "showcase": "쇼케이스",
-      "books": "도서",
-      "news": "소식",
-      "contact": "문의"
-    }
+    "contactCta": "문의하기"
   },
   "languageSwitcher": {
     "ariaLabel": "언어 선택",
@@ -65,6 +56,27 @@
       "body": "2024년 4월 설립. 위즈덤 생태계의 해외 사업을 담당하며 문학, 웹툰, 전자책, 오디오북을 하나의 에이전시로 묶습니다.",
       "quoteMain": "이야기는, ",
       "quoteMuted": "여기서 계속됩니다."
+    }
+  },
+  "legacyTimeline": {
+    "title": "신뢰에서 시작해, 세계로 확장합니다",
+    "description": "Bookly의 긴 설명은 하나의 문단보다 여정에 가깝습니다. 위즈덤샐러의 운영 경험에서 출발해 아시아 콘텐츠 교류로 이어지는 흐름을 단계별로 소개합니다.",
+    "items": {
+      "trust": {
+        "kicker": "Legacy of Trust",
+        "title": "신뢰의 시작",
+        "body": "Bookly는 2013년 설립된 WisdomSeller의 경험을 기반으로 성장했습니다. 지난 10여 년간 정부기관, 학교, 군부대 등 엄격한 기준이 요구되는 시장에서 도서 유통과 기관 납품의 신뢰를 쌓아왔습니다."
+      },
+      "operations": {
+        "kicker": "Professional Operations",
+        "title": "투명한 거래와 전문 운영",
+        "body": "나라장터, 국방전자조달시스템, 학교장터 등 공식 입찰 플랫폼을 통해 공정하고 신뢰도 높은 거래를 수행해왔습니다. 또한 MARC 데이터 구축과 전문 장비 서비스까지 제공하며 출판 운영 인프라를 넓혀왔습니다."
+      },
+      "expansion": {
+        "kicker": "Mission & Strategy",
+        "title": "Bookly의 글로벌 확장",
+        "body": "Bookly는 한국의 작가와 출판사를 아시아의 더 넓은 독자층과 연결합니다. 종이책, eBook, 오디오북, 웹툰, 웹소설까지 다양한 콘텐츠 교류를 지원합니다."
+      }
     }
   },
   "network": {
@@ -184,20 +196,20 @@
   "contact": {
     "title": "문의하기",
     "managers": {
-      "english": {
-        "region": "영미권",
+      "korean": {
+        "region": "한국",
         "name": "Camino"
       },
-      "sea": {
-        "region": "동남아권",
-        "name": "Chloe"
+      "english": {
+        "region": "영어권",
+        "name": "chy.huynh"
       },
       "chinese": {
         "region": "중국어권",
-        "name": "Gada"
+        "name": "Gadak"
       },
-      "japanese": {
-        "region": "일본어권",
+      "seaJapanese": {
+        "region": "동남아권 및 일본어권",
         "name": "Lana"
       }
     },

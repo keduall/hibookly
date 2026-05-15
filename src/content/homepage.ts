@@ -1,13 +1,13 @@
 export type Genre = '아동' | '소설' | '자기계발';
 
 export const navLinks = [
-  { href: '#about', labelKey: 'nav.links.about' },
-  { href: '#story', labelKey: 'nav.links.story' },
-  { href: '#network', labelKey: 'nav.links.network' },
-  { href: '#showcase', labelKey: 'nav.links.showcase' },
-  { href: '#books', labelKey: 'nav.links.books' },
-  { href: '#news', labelKey: 'nav.links.news' },
-  { href: '#contact', labelKey: 'nav.links.contact' },
+  { href: '#about', label: 'About us' },
+  { href: '#story', label: 'Our Story' },
+  { href: '#network', label: 'Network' },
+  { href: '#showcase', label: 'Exported titles' },
+  { href: '#books', label: 'Rights Guide' },
+  { href: '#news', label: 'News & Events' },
+  { href: '#contact', label: 'Contact Us' },
 ];
 
 export const stats: { value: number; suffix?: string; labelKey: string }[] = [
@@ -111,10 +111,10 @@ export const newsItems = [
 ];
 
 export const managers = [
-  { id: 'english', email: 'camino@hibookly.com' },
-  { id: 'sea', email: 'camino@hibookly.com' },
-  { id: 'chinese', email: 'camino@hibookly.com' },
-  { id: 'japanese', email: 'camino@hibookly.com' },
+  { id: 'korean', email: 'camino@hibookly.com' },
+  { id: 'english', email: 'chy.huynh@hibookly.com' },
+  { id: 'chinese', email: 'maihanh@hibookly.com' },
+  { id: 'seaJapanese', email: 'lana@hibookly.com' },
 ] as const;
 
 export const offices = [

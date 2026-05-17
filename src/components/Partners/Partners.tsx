@@ -28,7 +28,7 @@ export default function Partners() {
       <Swiper
         modules={[Autoplay]}
         slidesPerView="auto"
-        spaceBetween={64}
+        spaceBetween={32}
         loop
         speed={6000}
         autoplay={{

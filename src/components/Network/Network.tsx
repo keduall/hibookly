@@ -50,7 +50,7 @@ export default function Network() {
           {companyLogos.map((logo) => (
             <li
               key={logo.src}
-              className="flex h-[104px] items-center justify-center rounded-md border border-white/[0.08] bg-white/[0.04] px-5 py-4 backdrop-blur-sm"
+              className="flex h-[104px] items-center justify-center rounded-md bg-white/[0.04] px-5 py-4 backdrop-blur-sm"
             >
               <img
                 src={logo.src}

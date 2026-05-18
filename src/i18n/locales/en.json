@@ -24,7 +24,7 @@
   "hero": {
     "eyebrow": "Bookly · International Rights Agency",
     "headline": "Connecting knowledge,\nbridging the world",
-    "lede": "An international rights agency built on a decade of trust at Wisdom Celler.<br />Bringing Korean stories to the world."
+    "lede": "An international rights agency built on a decade of trust at Wisdom Cellar.<br />Bringing Korean stories to the world."
   },
   "about": {
     "stats": {
@@ -55,26 +55,26 @@
     "title": "From a small desk in Seoul<br />to 17 partner regions nationwide",
     "wisdomseller": {
       "year": "Founded 2013",
-      "title": "WisdomSeller",
+      "title": "Wisdom Cellar",
       "body": "A boutique rights agency born in Seoul. For over a decade, we've worked quietly with Korean authors, translators, and overseas publishers.",
       "quote": "Bookly began here."
     },
     "bookly": {
       "year": "Founded 2024",
       "title": "Bookly",
-      "body": "Established in April 2024. Leading the international business of the Wisdom Celler ecosystem, uniting literature, webtoons, e-books, and audiobooks under one agency.",
+      "body": "Established in April 2024. Leading the international business of the Wisdom Cellar ecosystem, uniting literature, webtoons, e-books, and audiobooks under one agency.",
       "quoteMain": "The story, ",
       "quoteMuted": "continues here."
     }
   },
   "legacyTimeline": {
     "title": "Built on trust, expanding across borders",
-    "description": "Bookly's story is easier to follow as a journey than as a single paragraph. From Wisdom Celler's operational foundation to cross-border content exchange, each step shows how that trust now scales.",
+    "description": "Bookly's story is easier to follow as a journey than as a single paragraph. From Wisdom Cellar's operational foundation to cross-border content exchange, each step shows how that trust now scales.",
     "items": {
       "trust": {
         "kicker": "Legacy of Trust",
         "title": "A Foundation of Trust",
-        "body": "Bookly is built on the experience of Wisdom Celler, founded in 2013. For more than a decade, that foundation has earned trust by supplying books to government agencies, schools, and military organizations with strict standards."
+        "body": "Bookly is built on the experience of Wisdom Cellar, founded in 2013. For more than a decade, that foundation has earned trust by supplying books to government agencies, schools, and military organizations with strict standards."
       },
       "operations": {
         "kicker": "Professional Operations",
@@ -102,7 +102,7 @@
     "yearNew": "New",
     "cards": {
       "wisdomseller": {
-        "name": "WisdomSeller",
+        "name": "Wisdom Cellar",
         "city": "Seoul",
         "body": "Our founding partner for book supply and rights — the origin of the group."
       },

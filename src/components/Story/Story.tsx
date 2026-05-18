@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import Reveal from '../ui/Reveal';
 import ContentSection from '../ui/ContentSection';
 
-const wisdomcellerLogo = '/assets/wisdomceller-symbol-logo-dark.png?v=story-logos-20260507';
+const wisdomcellarLogo = '/assets/wisdomcellar-symbol-logo-dark.png?v=story-logos-20260507';
 const booklyLogo = '/assets/bookly-symbol-logo-white.png?v=story-logos-20260507';
 
 export default function Story() {
@@ -23,7 +23,7 @@ export default function Story() {
               {t('story.wisdomseller.year')}
             </div>
             <img
-              src={wisdomcellerLogo}
+              src={wisdomcellarLogo}
               width="64"
               height="64"
               loading="eager"

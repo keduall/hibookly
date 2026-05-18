@@ -1,7 +1,9 @@
 import { useEffect, useRef, useState } from 'react';
 import { Globe2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { SUPPORTED_LANGS, type Lang, buildLangPath } from '../../../i18n';
+import { type Lang, buildLangPath } from '../../../i18n';
+
+const SELECTABLE_LANGS = ['ko', 'en'] satisfies readonly Lang[];
 
 function changeLanguage(lang: Lang, current: Lang, i18n: ReturnType<typeof useTranslation>['i18n']) {
   if (lang === current) return;
@@ -58,7 +60,7 @@ export default function LanguageSwitcher() {
 
       {open && (
         <div className="lang-switcher__menu" role="listbox" aria-label={t('languageSwitcher.ariaLabel')}>
-          {SUPPORTED_LANGS.map((lang) => (
+          {SELECTABLE_LANGS.map((lang) => (
             <button
               key={lang}
               type="button"
@@ -82,7 +84,7 @@ export function MobileLanguageSelector() {
 
   return (
     <div className="mobile-lang-selector" role="radiogroup" aria-label={t('languageSwitcher.ariaLabel')}>
-      {SUPPORTED_LANGS.map((lang) => (
+      {SELECTABLE_LANGS.map((lang) => (
         <button
           key={lang}
           type="button"

@@ -218,22 +218,22 @@
         "name": "Chloe"
       },
       "chinese": {
-        "region": "Chinese-language countries",
+        "region": "Chinese language countries",
         "name": "Gada"
       },
       "seaJapanese": {
-          "region": "South East Asia & Japan",
+        "region": "South East Asia & Japan",
         "name": "Lana"
       }
     },
     "offices": {
       "korea": {
-        "city": "Văn phòng Hàn Quốc",
-        "addr": "765 Taejang-ro, Suite 506, Gimpo-si, Gyeonggi-do, Hàn Quốc"
+        "city": "Korea office",
+        "addr": "506, 765 Taejang-ro, Gimpo-si, Gyeonggi-do, Republic of Korea"
       },
       "vietnam": {
-        "city": "Văn phòng Việt Nam",
-        "addr": "Tầng 3, HQ Tower, 201 Trần Não, Phường An Khánh, Thành phố Hồ Chí Minh, Việt Nam"
+        "city": "Vietnam office",
+        "addr": "3F, HQ Tower, 201 Tran Nao, An Khanh Ward, Ho Chi Minh City, Vietnam"
       }
     },
     "form": {

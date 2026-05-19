@@ -35,7 +35,7 @@ export default function Hero() {
   return (
     <section
       id="top"
-      className="relative min-h-screen flex items-start justify-start overflow-hidden text-white px-gutter pt-hero-pt"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden text-white px-gutter"
     >
       <video
         ref={videoRef}
@@ -54,25 +54,20 @@ export default function Hero() {
         aria-hidden="true"
       />
       <div
-        className="absolute inset-0 z-[2] pointer-events-none [transform:translateZ(0)] [will-change:transform] [background:linear-gradient(in_srgb_90deg,rgba(7,10,12,0.72)_0%,rgba(7,10,12,0.52)_42%,rgba(7,10,12,0.18)_100%),linear-gradient(in_srgb_180deg,rgba(7,10,12,0.22)_0%,rgba(7,10,12,0.08)_44%,rgba(7,10,12,0.48)_100%)]"
+        className="absolute inset-0 z-[2] pointer-events-none [transform:translateZ(0)] [will-change:transform] [background:linear-gradient(in_srgb_90deg,rgba(7,10,12,0.52)_0%,rgba(7,10,12,0.34)_42%,rgba(7,10,12,0.08)_100%),linear-gradient(in_srgb_180deg,rgba(7,10,12,0.12)_0%,rgba(7,10,12,0.02)_44%,rgba(7,10,12,0.3)_100%)]"
         aria-hidden="true"
       />
 
-      <div className="relative z-[3] w-full mx-auto text-center">
+      <div className="relative z-[3] w-full max-w-[960px] mx-auto text-center">
         <div
           className={`${revealBase} ${revealState} delay-[400ms] mb-7 font-medium uppercase tracking-widest text-white/[0.74] [text-shadow:0_2px_12px_rgba(0,0,0,0.5)] max-md:text-xs`}
         >
           {t('hero.eyebrow')}
         </div>
 
-        <h1 className="text-fluid-display max-md:text-fluid-hero-mobile font-medium text-white m-0 mb-8">
+        <h1 className="text-fluid-display max-md:text-fluid-hero-mobile font-medium text-white m-0">
           <BlurText key={i18n.language} text={t('hero.headline')} start={isReady} />
         </h1>
-
-        <p
-          className={`${revealBase} ${revealState} delay-[800ms] font-serif font-light text-fluid-lede max-md:text-sm text-white/[0.82] m-0 [word-break:keep-all]`}
-          dangerouslySetInnerHTML={{ __html: t('hero.lede') }}
-        />
       </div>
     </section>
   );

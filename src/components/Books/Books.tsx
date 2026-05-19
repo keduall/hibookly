@@ -28,7 +28,6 @@ export default function Books() {
     <ContentSection
       id="books"
       title={sectionTitles.books}
-      className="bg-paper"
     >
       <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={160} role="tablist">
         {bookFilters.map((f) => {
@@ -77,7 +76,7 @@ export default function Books() {
                 onClick={() => setOpenBook(b)}
                 className="group/book block w-full p-0 m-0 border-0 bg-transparent text-left font-[inherit] text-[inherit] cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-bookly-primary focus-visible:outline-offset-[6px] focus-visible:rounded-md"
               >
-                <div className="aspect-[2/3] rounded-md shadow-card-warm mb-[14px] max-md:mb-3 relative overflow-hidden bg-white transition-transform duration-600 ease-out-soft group-hover/book:-translate-y-[6px] group-focus-visible/book:-translate-y-[6px]">
+                <div className="aspect-[2/3] rounded-md shadow-card-warm mb-[14px] max-md:mb-3 relative overflow-hidden bg-white">
                   <img
                     className="w-full h-full object-cover"
                     src={encodeURI(b.cover)}
@@ -86,12 +85,6 @@ export default function Books() {
                   />
                   <span className="absolute right-3 top-3 inline-flex items-center min-h-[26px] px-[9px] py-[5px] rounded-xs bg-[rgba(20,17,12,0.72)] text-white text-xs font-semibold backdrop-blur-md">
                     {t('books.status.new')}
-                  </span>
-                  <span
-                    aria-hidden="true"
-                    className="absolute inset-0 flex items-end justify-start p-4 text-white text-[13px] font-medium tracking-wider opacity-0 transition-opacity duration-[360ms] ease-out-soft pointer-events-none [background:linear-gradient(to_top,rgba(20,17,12,0.7)_0%,rgba(20,17,12,0.2)_50%,rgba(20,17,12,0)_100%)] group-hover/book:opacity-100 group-focus-visible/book:opacity-100"
-                  >
-                    {t('books.viewMore')}
                   </span>
                 </div>
                 <div className="text-base font-medium text-ink-1 mb-1 leading-[1.35]">

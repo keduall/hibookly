@@ -1,22 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import ContentSection from '../ui/ContentSection';
 import { sectionTitles } from '../../content/homepage';
-
-type LogoSize = 'wide' | 'midWide' | 'mid' | 'square';
-
-const companyLogos: Array<{ name: string; src: string; size: LogoSize }> = [
-  { name: 'Bookly', src: '/companies/bookly.png', size: 'wide' },
-  { name: 'Compass Education', src: '/companies/compass-edu.png', size: 'square' },
-  { name: 'Fiktech', src: '/companies/fiktech.png', size: 'square' },
-  { name: 'Glowin Vina', src: '/companies/glowinvina.png', size: 'wide' },
-  { name: 'KCompass', src: '/companies/kcompass.png', size: 'midWide' },
-  { name: 'Keduall', src: '/companies/keduall.png', size: 'wide' },
-  { name: 'Kibble', src: '/companies/kibble.png', size: 'midWide' },
-  { name: 'Vinatree', src: '/companies/vinatree.png', size: 'mid' },
-  { name: 'Wisdom Cellar', src: '/companies/wisdomcellar.png', size: 'mid' },
-  { name: 'Biblia', src: '/companies/biblia.png', size: 'wide' },
-  { name: 'Bookchaka', src: '/companies/bookchaka.png', size: 'square' },
-];
+import { companyLogos, type LogoSize } from '../../content/logos';
 
 const logoSizeClass: Record<LogoSize, string> = {
   wide: 'h-10 max-md:h-11',

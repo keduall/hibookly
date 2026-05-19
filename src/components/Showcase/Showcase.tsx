@@ -1,6 +1,15 @@
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { FreeMode, Mousewheel } from 'swiper/modules';
+import type { Swiper as SwiperType } from 'swiper';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
+import Reveal from '../ui/Reveal';
 import ContentSection from '../ui/ContentSection';
 import { sectionTitles } from '../../content/homepage';
+
+import 'swiper/css';
+import 'swiper/css/free-mode';
 
 type ShowcaseCover = {
   title: string;
@@ -45,7 +54,7 @@ function ShowcaseCoverCard({ title, file }: ShowcaseCover) {
   const { t } = useTranslation();
 
   return (
-    <div className="relative aspect-[2/3] rounded-[6px] overflow-hidden shadow-cover-soft bg-white after:content-[''] after:absolute after:inset-0 after:pointer-events-none after:[background:radial-gradient(120%_80%_at_50%_0%,rgba(255,255,255,0.16),transparent_60%),linear-gradient(180deg,transparent_68%,rgba(31,24,18,0.12)_100%)]">
+    <div className="relative aspect-[2/3] w-full rounded-md overflow-hidden shadow-card-warm bg-white after:content-[''] after:absolute after:inset-0 after:pointer-events-none after:[background:radial-gradient(120%_80%_at_50%_0%,rgba(255,255,255,0.16),transparent_60%),linear-gradient(180deg,transparent_68%,rgba(31,24,18,0.12)_100%)]">
       <img
         className="h-full w-full object-cover"
         src={`/books/export/${encodeURIComponent(file)}`}
@@ -58,21 +67,74 @@ function ShowcaseCoverCard({ title, file }: ShowcaseCover) {
 
 export default function Showcase() {
   const { t } = useTranslation();
+  const [swiper, setSwiper] = useState<SwiperType | null>(null);
+  const [swiperState, setSwiperState] = useState({ isBeginning: true, isEnd: false });
+
+  const updateSwiperState = (instance: SwiperType) => {
+    setSwiperState({
+      isBeginning: instance.isBeginning,
+      isEnd: instance.isEnd,
+    });
+  };
 
   return (
     <ContentSection
       id="showcase"
       title={sectionTitles.showcase}
-      description={t('showcase.subtitle')}
       className="relative overflow-hidden"
     >
-      <div
-        aria-hidden="true"
-        className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4 md:grid-cols-4 lg:grid-cols-6 lg:gap-[18px]"
-      >
-        {showcaseCovers.map((cover) => (
-          <ShowcaseCoverCard key={cover.file} {...cover} />
-        ))}
+      <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={160}>
+        <button
+          type="button"
+          aria-label="Previous exported titles"
+          onClick={() => swiper?.slidePrev()}
+          disabled={!swiper || swiperState.isBeginning}
+          className="inline-flex h-11 w-11 items-center justify-center rounded-pill border border-line-strong bg-transparent text-ink-2 transition-[background,color,border-color,opacity] duration-240 ease-out-soft hover:border-ink-3 hover:bg-white/50 disabled:cursor-default disabled:opacity-35 disabled:hover:border-line-strong disabled:hover:bg-transparent max-md:h-10 max-md:w-10"
+        >
+          <ChevronLeft size={21} strokeWidth={1.8} aria-hidden="true" />
+        </button>
+        <button
+          type="button"
+          aria-label="Next exported titles"
+          onClick={() => swiper?.slideNext()}
+          disabled={!swiper || swiperState.isEnd}
+          className="inline-flex h-11 w-11 items-center justify-center rounded-pill border border-line-strong bg-transparent text-ink-2 transition-[background,color,border-color,opacity] duration-240 ease-out-soft hover:border-ink-3 hover:bg-white/50 disabled:cursor-default disabled:opacity-35 disabled:hover:border-line-strong disabled:hover:bg-transparent max-md:h-10 max-md:w-10"
+        >
+          <ChevronRight size={21} strokeWidth={1.8} aria-hidden="true" />
+        </button>
+      </Reveal>
+
+      <div className="pt-2 pb-6 overflow-x-clip [&_.swiper]:overflow-visible">
+        <Swiper
+          modules={[FreeMode, Mousewheel]}
+          slidesPerView="auto"
+          spaceBetween={24}
+          freeMode={{ enabled: true, momentum: true }}
+          mousewheel={{ forceToAxis: true }}
+          slideToClickedSlide
+          watchSlidesProgress
+          grabCursor
+          observer
+          observeParents
+          onSwiper={(instance) => {
+            setSwiper(instance);
+            updateSwiperState(instance);
+          }}
+          onSlideChange={updateSwiperState}
+          onReachBeginning={updateSwiperState}
+          onReachEnd={updateSwiperState}
+          onFromEdge={updateSwiperState}
+          aria-label={t('showcase.ariaLabel')}
+        >
+          {showcaseCovers.map((cover) => (
+            <SwiperSlide
+              key={cover.file}
+              className="!w-[calc((100%_-_84px)_/_4.5)] max-md:!w-[168px]"
+            >
+              <ShowcaseCoverCard {...cover} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
     </ContentSection>
   );

@@ -27,7 +27,7 @@ export default function About() {
             >
               <div>
                 <ServiceIcon
-                  className="h-10 w-10 flex-none text-bookly-primary/70 max-md:h-8 max-md:w-8"
+                  className="h-14 w-14 flex-none text-bookly-primary/70 max-md:h-11 max-md:w-11"
                   strokeWidth={1.5}
                   aria-hidden="true"
                 />

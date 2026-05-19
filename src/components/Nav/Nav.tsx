@@ -50,7 +50,7 @@ export default function Nav() {
           aria-label={t('nav.home')}
         >
           <img
-            className="h-[22px] [filter:brightness(0)_invert(1)] transition-[filter] duration-600 ease-out-soft group-hover/nav:filter-none group-[.is-solid]/nav:filter-none"
+            className="h-[30px] [filter:brightness(0)_invert(1)] transition-[filter] duration-600 ease-out-soft group-hover/nav:filter-none group-[.is-solid]/nav:filter-none"
             src="/assets/logo_dark.png"
             alt="Bookly"
           />
@@ -117,7 +117,7 @@ export default function Nav() {
               onClick={() => setMenuOpen(false)}
               className="justify-self-center inline-flex items-center"
             >
-              <img className="h-[22px] w-auto" src="/assets/logo_dark.png" alt="Bookly" />
+              <img className="h-[30px] w-auto" src="/assets/logo_dark.png" alt="Bookly" />
             </a>
             <a
               href="#contact"

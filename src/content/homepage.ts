@@ -12,11 +12,8 @@ export const sectionTitles = {
 
 export const navLinks = [
   { href: '#about', label: sectionTitles.about },
-  { href: '#story', label: sectionTitles.story },
-  { href: '#network', label: sectionTitles.network },
   { href: '#showcase', label: sectionTitles.showcase },
   { href: '#books', label: sectionTitles.books },
-  { href: '#news', label: sectionTitles.news },
   { href: '#contact', label: sectionTitles.contact },
 ];
 

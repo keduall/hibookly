@@ -1,3 +1,4 @@
+import type { CSSProperties } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Compass, Globe, Handshake, Languages, type LucideIcon } from 'lucide-react';
 import Reveal from '../ui/Reveal';
@@ -15,24 +16,28 @@ export default function About() {
   const { t } = useTranslation();
   return (
     <ContentSection id="about">
-      <div className="grid grid-cols-2 max-md:grid-cols-1 gap-px p-px bg-paper">
+      <div className="grid grid-cols-2 max-md:grid-cols-1 gap-6 max-md:gap-4">
         {services.map((svc, i) => {
           const ServiceIcon = serviceIcons[svc.num];
+          const cardDelay = i * 120;
+          const cardStyle = { '--about-card-delay': `${cardDelay}ms` } as CSSProperties;
 
           return (
             <Reveal
+              as="article"
               key={svc.num}
-              className="bg-white p-12 max-md:p-7 min-h-[240px] max-md:min-h-0 flex flex-col justify-between gap-10 transition-[background,transform] duration-600 ease-out-soft"
-              delay={i * 100}
+              className="about-service-card bg-paper p-12 max-md:p-7 min-h-[240px] max-md:min-h-0 flex flex-col justify-between gap-10"
+              delay={cardDelay}
+              style={cardStyle}
             >
-              <div>
+              <div className="about-service-card__icon">
                 <ServiceIcon
                   className="h-14 w-14 flex-none text-bookly-primary/70 max-md:h-11 max-md:w-11"
                   strokeWidth={1.5}
                   aria-hidden="true"
                 />
               </div>
-              <div>
+              <div className="about-service-card__content">
                 <h3 className="font-medium tracking-snug m-0 mb-3 text-ink-1 text-2xl max-md:text-xl">
                   {t(svc.titleKey)}
                 </h3>

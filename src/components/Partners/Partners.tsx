@@ -1,10 +1,11 @@
 import { useTranslation } from 'react-i18next';
-import { companyLogos, partnerLogos, type LogoItem, type LogoSize } from '../../content/logos';
+import { partnerLogos, type LogoItem, type LogoSize } from '../../content/logos';
+import { sectionTitles } from '../../content/homepage';
+import ContentSection from '../ui/ContentSection';
 
-const allLogos = [...partnerLogos, ...companyLogos];
 const logoRows = [
-  allLogos.filter((_, index) => index % 2 === 0),
-  allLogos.filter((_, index) => index % 2 === 1),
+  partnerLogos.filter((_, index) => index % 2 === 0),
+  partnerLogos.filter((_, index) => index % 2 === 1),
 ];
 
 const logoSizeClass: Record<LogoSize, string> = {
@@ -56,14 +57,21 @@ export default function Partners() {
   const { t } = useTranslation();
 
   return (
-    <section
-      aria-label={t('partners.ariaLabel')}
-      className="partners-marquee h-[50svh] min-h-[260px] max-md:min-h-[220px] overflow-hidden relative flex items-center [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
+    <ContentSection
+      id="partners"
+      title={sectionTitles.partners}
+      className="min-h-0 overflow-hidden"
     >
-      <div className="flex w-full flex-col gap-5 max-md:gap-4">
-        <LogoRow logos={logoRows[0]} />
-        <LogoRow logos={logoRows[1]} reverse />
+      <div
+        role="region"
+        aria-label={t('partners.ariaLabel')}
+        className="partners-marquee h-[50svh] min-h-[260px] max-md:min-h-[220px] overflow-hidden relative flex items-center [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
+      >
+        <div className="flex w-full flex-col gap-5 max-md:gap-4">
+          <LogoRow logos={logoRows[0]} />
+          <LogoRow logos={logoRows[1]} reverse />
+        </div>
       </div>
-    </section>
+    </ContentSection>
   );
 }

@@ -148,6 +148,42 @@
   "partners": {
     "ariaLabel": "Logo đối tác"
   },
+  "introduction": {
+    "eyebrow": "Global Rights Bridge",
+    "headline": "Đối tác bản quyền nội dung kết nối Hàn Quốc và thế giới",
+    "lede": "Vượt qua biên giới, chúng tôi kết nối thị trường xuất bản Hàn Quốc với thế giới và dẫn dắt trao đổi nội dung chất lượng theo cả hai chiều.",
+    "body": {
+      "first": "Trong thị trường xuất bản thay đổi nhanh chóng, chúng tôi không chỉ giao dịch sách mà còn truyền tải những câu chuyện có giá trị, kết nối độc giả ở nhiều nền văn hóa.",
+      "second": "Bookly phát triển cả outbound, đưa K-content cạnh tranh của Hàn Quốc đến Việt Nam, Đông Nam Á, khu vực Hoa ngữ, Nhật Bản và toàn châu Á, lẫn inbound, chọn lọc các đầu sách quốc tế giàu giá trị cho độc giả Hàn Quốc.",
+      "third": "Dựa trên mạng lưới xuất bản từng quốc gia và hiểu biết thị trường, chúng tôi xây dựng quan hệ đối tác phù hợp và kết nối đáng tin cậy. Bookly hiểu chính xác giá trị nội dung và mở rộng tiềm năng đó ra thế giới."
+    },
+    "lanes": {
+      "outbound": {
+        "label": "Outbound",
+        "title": "K-content vượt châu Á, ra thế giới",
+        "body": "Chúng tôi kết nối sách và nội dung Hàn Quốc chất lượng với độc giả tại Việt Nam, Đông Nam Á, khu vực Hoa ngữ, Nhật Bản và xa hơn nữa. Chiến lược phù hợp từng thị trường giúp tối đa hóa giá trị."
+      },
+      "inbound": {
+        "label": "Inbound",
+        "title": "Sách quốc tế cho độc giả Hàn Quốc",
+        "body": "Chúng tôi tìm kiếm các tựa sách quốc tế có xu hướng và giá trị nội dung nổi bật, rồi giới thiệu vào thị trường Hàn Quốc để những góc nhìn mới đến được với độc giả."
+      }
+    },
+    "principles": {
+      "marketInsight": {
+        "title": "Market Insight",
+        "body": "Phân tích dòng chảy xuất bản và xu hướng độc giả theo từng quốc gia để cung cấp insight chính xác."
+      },
+      "partnerMatching": {
+        "title": "Partner Matching",
+        "body": "Kết nối đối tác phù hợp dựa trên mạng lưới đã kiểm chứng và chuyên môn xuất bản."
+      },
+      "balancedBusiness": {
+        "title": "Balanced Global Business",
+        "body": "Cân bằng inbound và outbound để tối đa hóa giá trị nội dung và hỗ trợ tăng trưởng bền vững."
+      }
+    }
+  },
   "showcase": {
     "ariaLabel": "Các tựa sách tiêu biểu",
     "titleLine1": "Những câu chuyện vô tận,",
@@ -170,7 +206,29 @@
     },
     "viewMore": "Xem chi tiết",
     "coverAlt": "Bìa {{title}}",
-    "detailLabel": "Xem chi tiết {{title}}"
+    "detailLabel": "Xem chi tiết {{title}}",
+    "items": {
+      "laughRoom": {
+        "title": "Phòng Cười",
+        "publisher": "Geobugi Books"
+      },
+      "copycatGirl": {
+        "title": "Cô gái bắt chước",
+        "publisher": "Texty"
+      },
+      "sleeplessStories": {
+        "title": "Những câu chuyện khiến giấc ngủ biến mất",
+        "publisher": "Geobugi Books"
+      },
+      "anonymousSerial": {
+        "title": "Truyện đăng ẩn danh",
+        "publisher": "Texty"
+      },
+      "oneMinuteBreath": {
+        "title": "Một phút thở thay đổi não bộ của trẻ",
+        "publisher": "Sejong Books"
+      }
+    }
   },
   "bookModal": {
     "close": "Đóng",

@@ -11,6 +11,7 @@ type ContentSectionProps = {
   containerClassName?: string;
   headerClassName?: string;
   bodyClassName?: string;
+  revealBody?: boolean;
 };
 
 export default function ContentSection({
@@ -23,15 +24,17 @@ export default function ContentSection({
   containerClassName = '',
   headerClassName = '',
   bodyClassName = '',
+  revealBody = true,
 }: ContentSectionProps) {
   const titleId = id ? `${id}-title` : undefined;
   const isDark = tone === 'dark';
+  const bodyDelay = title ? (description ? 280 : 220) : 0;
 
   return (
     <section
       id={id}
       aria-labelledby={title ? titleId : undefined}
-      className={`px-gutter py-section-y min-h-svh max-md:min-h-0 max-md:py-[88px] ${className}`.trim()}
+      className={`px-gutter py-section-y min-h-[80svh] max-md:min-h-0 max-md:py-[88px] ${className}`.trim()}
     >
       <div className={`w-full max-w-container mx-auto relative ${containerClassName}`.trim()}>
         {title && (
@@ -62,7 +65,13 @@ export default function ContentSection({
           </header>
         )}
 
-        <div className={bodyClassName}>{children}</div>
+        {revealBody ? (
+          <Reveal delay={bodyDelay} className={bodyClassName}>
+            {children}
+          </Reveal>
+        ) : (
+          <div className={bodyClassName}>{children}</div>
+        )}
       </div>
     </section>
   );

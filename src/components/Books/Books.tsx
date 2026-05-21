@@ -21,6 +21,10 @@ export default function Books() {
   const { t } = useTranslation();
   const [filter, setFilter] = useState<FilterValue>('전체');
   const [openBook, setOpenBook] = useState<Book | null>(null);
+  const getBookTitle = (book: Book) =>
+    t(`books.items.${book.id}.title`, { defaultValue: book.title });
+  const getBookPublisher = (book: Book) =>
+    t(`books.items.${book.id}.publisher`, { defaultValue: book.publisher ?? '' });
 
   const visible = books.filter((b) => filter === '전체' || b.genre === filter);
 
@@ -28,8 +32,9 @@ export default function Books() {
     <ContentSection
       id="books"
       title={sectionTitles.books}
+      revealBody={false}
     >
-      <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={160} role="tablist">
+      <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={220} role="tablist">
         {bookFilters.map((f) => {
           const active = filter === f.value;
           return (
@@ -49,7 +54,7 @@ export default function Books() {
         })}
       </Reveal>
 
-      <div className="pt-2 pb-6 overflow-x-clip [&_.swiper]:overflow-visible">
+      <Reveal className="pt-2 pb-6 overflow-x-clip [&_.swiper]:overflow-visible" delay={320}>
         <Swiper
           key={filter}
           modules={[FreeMode, Mousewheel]}
@@ -65,32 +70,34 @@ export default function Books() {
         >
           {visible.map((b) => (
             <SwiperSlide
-              key={b.title}
+              key={b.id}
               data-genre={b.genre}
-              className="!w-[240px] max-md:!w-[168px]"
+              className="!w-[calc((100%_-_96px)_/_5)] max-md:!w-[168px]"
             >
               <button
                 type="button"
                 aria-haspopup="dialog"
-                aria-label={t('books.detailLabel', { title: b.title })}
+                aria-label={t('books.detailLabel', { title: getBookTitle(b) })}
                 onClick={() => setOpenBook(b)}
                 className="group/book block w-full p-0 m-0 border-0 bg-transparent text-left font-[inherit] text-[inherit] cursor-pointer focus-visible:outline focus-visible:outline-2 focus-visible:outline-bookly-primary focus-visible:outline-offset-[6px] focus-visible:rounded-md"
               >
                 <div className="aspect-[2/3] rounded-md shadow-card-warm mb-[14px] max-md:mb-3 relative overflow-hidden bg-white">
                   <img
                     className="w-full h-full object-cover"
-                    src={encodeURI(b.cover)}
-                    alt={t('books.coverAlt', { title: b.title })}
+                    src={b.cover}
+                    alt={t('books.coverAlt', { title: getBookTitle(b) })}
                     loading="lazy"
                   />
                   <span className="absolute right-3 top-3 inline-flex items-center min-h-[26px] px-[9px] py-[5px] rounded-xs bg-[rgba(20,17,12,0.72)] text-white text-xs font-semibold backdrop-blur-md">
                     {t('books.status.new')}
                   </span>
                 </div>
-                <div className="text-base font-medium text-ink-1 mb-1 leading-[1.35]">
-                  {b.title}
+                <div className="line-clamp-2 text-base font-medium text-ink-1 mb-1 leading-[1.35]">
+                  {getBookTitle(b)}
                 </div>
-                {b.publisher && <div className="font-serif text-ink-3">{b.publisher}</div>}
+                {b.publisher && (
+                  <div className="truncate font-serif text-ink-3">{getBookPublisher(b)}</div>
+                )}
                 <div className="text-ink-4 mt-[6px] tracking-[0.06em] uppercase">
                   {t(`books.filters.${genreKeyByValue[b.genre]}`)}
                 </div>
@@ -98,7 +105,7 @@ export default function Books() {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </Reveal>
 
       {openBook && <BookModal book={openBook} onClose={() => setOpenBook(null)} />}
     </ContentSection>

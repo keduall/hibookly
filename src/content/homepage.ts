@@ -1,4 +1,11 @@
+import booksData from './books.json';
+
 export type Genre = '아동' | '소설' | '자기계발';
+export type ContentLanguage = 'ko' | 'en' | 'vi';
+export type BookDescription = {
+  aboutBook: string[];
+  aboutAuthor: string[];
+};
 
 export const sectionTitles = {
   about: 'About us',
@@ -7,6 +14,7 @@ export const sectionTitles = {
   showcase: 'Exported titles',
   books: 'Rights Guide',
   news: 'News & Events',
+  partners: 'Partners',
   contact: 'Contact Us',
 } as const;
 
@@ -14,6 +22,7 @@ export const navLinks = [
   { href: '#about', label: sectionTitles.about },
   { href: '#showcase', label: sectionTitles.showcase },
   { href: '#books', label: sectionTitles.books },
+  { href: '#partners', label: sectionTitles.partners },
   { href: '#contact', label: sectionTitles.contact },
 ];
 
@@ -58,48 +67,15 @@ export const networkCards: Record<'seoul' | 'regional', NetworkCard[]> = {
 };
 
 export type Book = {
+  id: string;
   title: string;
   publisher?: string;
   genre: Genre;
   cover: string;
-  descPath?: string;
+  descriptions?: Partial<Record<ContentLanguage, BookDescription>>;
 };
 
-export const books: Book[] = [
-  {
-    title: '웃음방',
-    publisher: '거북이북스',
-    genre: '아동',
-    cover: '/books/new/웃음방/윳음방.jpg',
-    descPath: '/books/new/웃음방/웃음방 도서소개.txt',
-  },
-  {
-    title: '모방소녀',
-    publisher: '텍스티',
-    genre: '소설',
-    cover: '/books/new/모방소녀/모방소녀.jpg',
-    descPath: '/books/new/모방소녀/모방소녀 도서소개.txt',
-  },
-  {
-    title: '잠이 달아나는 이야기',
-    publisher: '거북이북스',
-    genre: '아동',
-    cover: '/books/new/잠이 달아나는 이야기/잠이 달아나는 이야기.jpg',
-    descPath: '/books/new/잠이 달아나는 이야기/잠이 달아나는 이야기.txt',
-  },
-  {
-    title: '익명연재',
-    publisher: '텍스티',
-    genre: '소설',
-    cover: '/books/new/익명연재/익명연재.jpg',
-  },
-  {
-    title: '1분 호흡이 아이의 뇌를 바꾼다',
-    publisher: '세종서적',
-    genre: '자기계발',
-    cover: '/books/new/1분 호흡이 아이의 뇌를 바꾼다/1분 호흡이 아이의 뇌를 바꾼다_입체표지.jpg',
-  },
-];
+export const books = booksData as Book[];
 
 export type FilterValue = '전체' | Genre;
 export const bookFilters: { value: FilterValue; key: 'all' | 'child' | 'fiction' | 'selfDev' }[] = [

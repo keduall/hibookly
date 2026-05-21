@@ -1,0 +1,247 @@
+[
+  {
+    "id": "laughRoom",
+    "title": "웃음방",
+    "publisher": "거북이북스",
+    "genre": "아동",
+    "cover": "/books/new/laugh-room/cover.jpg",
+    "descriptions": {
+      "ko": {
+        "aboutBook": [
+          "소중애 작가 베스트셀러 ‘기묘한 방 이야기’ 시리즈\n짜증, 울음, 질투를 지나 도착한 웃음의 방!",
+          "강이 할아버지의 꽉 닫힌 웃음방!\n웃음방 열쇠는 도대체 어디에 있는 걸까요?",
+          "교통사고 이후, 강이에게 이상한 능력이 생겼어요. 사람들의 마음 상태에 따라 얼굴색이 저마다 다른 색으로 보여요. 언제나 근엄하기만 한 강이 할아버지는요? 이런, 짙은 회색이에요!\n누구나 마음속에 웃음방이 하나씩 있대요. 기쁜 일이 생기면 방 안 가득 웃음이 피어나지요. 그런데 할아버지의 웃음방은 꽉 닫혀 버린 것 같아요. 아무리 웃긴 일이 벌어져도 꿈쩍도 안 해요. 강이는 그런 할아버지가 궁금하기도 하고, 답답하기도 해요. 웃음방 열쇠를 찾으면 할아버지도 소리 내어 웃을 수 있을까요?"
+        ],
+        "aboutAuthor": [
+          "글 소중애 So Jung-ae\n《웃음방》은 작가님이 쓴 210권째 책이에요. 작가님은 많은 독자에게 사랑도 받고 수많은 문학상도 탔어요. 언제나 유쾌해서 주위 사람들을 기분 좋게 만들지요. 문학관을 만들어 준 분도 있어요. 많은 사람이 천안 ‘소중애 문학관’에 구경 와 작가님과 즐거운 시간을 갖지요. 작가님은 직접 그림책을 쓰고 그리고, 재미있는 장편 동화도 쓰면서 독자들과 함께 아주아주 행복하게 지내고 있어요. 대표작으로는 《짜증방》, 《울음방》, 《질투방》, 《수상한 여행 친구》, 《엄마는 미어캣》 등이 있어요.",
+          "그림 방새미 Bang Sae-mi\n프리랜서 일러스트레이터로 활동하며 새앙북스 출판사를 운영하고 있어요. 《우미 이야기》, 《두 마녀 이야기》, 《숲으로 돌아간 코끼리》 등을 출간했어요."
+        ]
+      },
+      "en": {
+        "aboutBook": [
+          "So Jung-ae's bestselling Strange Room Stories series\nAfter irritation, tears, and jealousy, we arrive in the Room of Laughter!",
+          "Kang-i's grandfather has a tightly shut Room of Laughter!\nWhere could the key be?",
+          "After a traffic accident, Kang-i gains a strange ability. People's faces appear in different colors depending on their state of mind. And Kang-i's grandfather, who is always stern? Oh no, his face is a deep gray!\nEveryone is said to have a Room of Laughter inside their heart. When something joyful happens, laughter blooms until the room is full. But Grandfather's Room of Laughter seems to have closed tight. No matter how funny things get, it will not budge. Kang-i feels both curious and frustrated. If Kang-i finds the key to the Room of Laughter, will Grandfather be able to laugh out loud too?"
+        ],
+        "aboutAuthor": [
+          "Written by So Jung-ae\nLaugh Room is the author's 210th book. She has been loved by many readers and has received numerous literary awards. Always cheerful, she lifts the mood of people around her. A literary museum has even been built in her honor. Many people visit the So Jung-ae Literary Museum in Cheonan to spend pleasant time with the author. She writes and illustrates picture books herself and also writes entertaining full-length children's stories, sharing joyful days with her readers. Her major works include Irritation Room, Crying Room, Jealousy Room, The Suspicious Travel Friend, and Mom Is a Meerkat.",
+          "Illustrated by Bang Sae-mi\nShe works as a freelance illustrator and runs Saeang Books. She has published Woomi's Story, The Story of Two Witches, and The Elephant That Returned to the Forest."
+        ]
+      },
+      "vi": {
+        "aboutBook": [
+          "Tập mới trong bộ truyện Strange Room Stories bán chạy của tác giả So Jung-ae\nSau những căn phòng của bực bội, nước mắt và ghen tị, ta đến với Phòng Cười!",
+          "Phòng Cười của ông nội Kang-i đang đóng chặt!\nChiếc chìa khóa rốt cuộc ở đâu?",
+          "Sau một tai nạn giao thông, Kang-i có một năng lực kỳ lạ. Khuôn mặt của mọi người hiện ra bằng những màu sắc khác nhau tùy theo trạng thái trong lòng họ. Còn ông nội của Kang-i, người lúc nào cũng nghiêm nghị thì sao? Ôi, khuôn mặt ông có màu xám sẫm!\nNghe nói trong lòng ai cũng có một Phòng Cười. Khi có chuyện vui, tiếng cười sẽ nở đầy căn phòng ấy. Nhưng Phòng Cười của ông nội dường như đã đóng kín. Dù có chuyện buồn cười đến đâu, nó cũng chẳng nhúc nhích. Kang-i vừa tò mò vừa thấy bức bối. Nếu tìm được chìa khóa của Phòng Cười, liệu ông nội có thể bật cười thành tiếng không?"
+        ],
+        "aboutAuthor": [
+          "Lời: So Jung-ae\nPhòng Cười là cuốn sách thứ 210 của tác giả. Bà được nhiều độc giả yêu mến và đã nhận nhiều giải thưởng văn học. Với tính cách luôn vui vẻ, bà khiến những người xung quanh cảm thấy dễ chịu. Thậm chí còn có người xây dựng một bảo tàng văn học dành cho bà. Nhiều người đến Bảo tàng Văn học So Jung-ae ở Cheonan để gặp gỡ tác giả và có những khoảng thời gian vui vẻ. Bà tự viết và vẽ sách tranh, đồng thời sáng tác truyện thiếu nhi dài tập, sống hạnh phúc bên độc giả. Các tác phẩm tiêu biểu của bà gồm Irritation Room, Crying Room, Jealousy Room, The Suspicious Travel Friend và Mom Is a Meerkat.",
+          "Tranh: Bang Sae-mi\nCô hoạt động với tư cách họa sĩ minh họa tự do và điều hành nhà xuất bản Saeang Books. Cô đã xuất bản Woomi's Story, The Story of Two Witches và The Elephant That Returned to the Forest."
+        ]
+      }
+    }
+  },
+  {
+    "id": "copycatGirl",
+    "title": "모방소녀",
+    "publisher": "텍스티",
+    "genre": "소설",
+    "cover": "/books/new/copycat-girl/cover.jpg",
+    "descriptions": {
+      "ko": {
+        "aboutBook": [
+          "대학수학능력시험 당일, 교차로에서 벌어진 사고는 한 소녀의 미래를 단숨에 뒤틀어 놓는다. 내신 1등급, 서울대 합격이 기정사실처럼 여겨지던 모범생 나영리는 수능을 치르지 못한 채 아버지의 혼수상태를 마주한다. 그리고 곧, 믿기 어려운 제안을 받는다. 대기업 총수의 딸을 대신해 고3 2회차를 보내고 수능을 치러 달라는 것.",
+          "거부할 수 없는 제안을 받아들인 모방소녀.\n[학벌 지상주의]에 관하여",
+          "『모방소녀』는 학벌 지상주의와 능력주의 신화가 결합된 한국 사회의 민낯을 정면으로 응시하는 작품이다. 텍스티의 시사 소설 시리즈 ‘사이드미러’는 우리가 목격했지만 쉽게 잊어버리는 사회적 문제를 가장 가까운 거리에서 바라보고자 기획되었다. 이번 작품은 ‘입시’라는 가장 공정해 보이는 제도가 실제로는 어떻게 계급과 자본의 영향을 받는지, 그리고 그 안에서 개인이 어떤 선택의 벼랑 끝에 서게 되는지를 묻는다.",
+          "사고 이후, 영리는 병원비와 생계를 감당하기 위해 아르바이트를 전전했다. 수능 미응시로 수시와 정시 모두 자동 불합격 처리되었고, 3년간 쌓아 올린 성취는 하루아침에 무너졌다. 그때, 아버지가 모시던 송 회장의 비서가 영리를 찾아온 것이다. 송 회장의 딸 초롬과 똑 닮은 얼굴을 가졌고 서울대 합격은 따 놓은 당상이었던 영리는 대리 수능이라는 위험한 프로젝트를 수행해 낼, 유일한 적임자였으므로.\n무단 횡단조차 해 본 적 없던 영리는 단칼에 거절하지만 현실은 점점 그녀를 몰아세운다. 쌓여가는 치료비, 전세금을 올려달라는 집 주인의 요구, 아버지의 응급 상황. 결국 영리는 다른 이름으로 시험장에 들어가기로 결심한다. 송 회장은 수능 고득점은 물론, 초롬의 상류 사회 진입을 위해 딸이 다니는 대명고 수제들의 스터디 그룹인 ‘하늘’에 들어가 유력 집안 자제들과 교분을 쌓을 것 또한 요구한다. 그렇게 영리의 ‘카피캣 프로젝트’가 시작된다.\n이 모방의 여정을 통해 영리와 초롬, 두 소녀의 삶은 점점 얽히고, 권력 내부의 균열이 드러나며, 선택의 대가는 예상보다 깊고 무겁게 다가온다. 『모방소녀』는 대리 수능이라는 자극적 설정을 넘어, “(모방의) 기회는 누구의 것인가”라는 질문을 끝까지 밀어붙이는 심리 스릴러이자 사회파 미스터리다. 그러면서 우리의 주체적 객체성은 안녕한지, 묻고자 한다."
+        ],
+        "aboutAuthor": [
+          "2022년 김유정신인문학상을 받으며 작품 활동을 시작했고 같은 해 한국콘텐츠진흥원 신진 스토리작가 공모전에 선정되어 첫 장편소설 『화원귀 문구』를 출간했다. SF 소설집 『모르페우스의 문』, 장편 동화 『간판 없는 문구점의 기묘한 이야기』, 『또 정다운』 을 썼으며 『촉법소년』, 『빌런은 바로 너』, 『엔딩은 있는가요』, 『1945: 이 세계가 사라지기 전에』 등 여러 앤솔러지에 작품을 실었다. 『화원귀 문구』는 해외 출간되었고, 『우리의 연애는 모두의 관심사』에 실은 단편소설 「포틀랜드 오피스텔」은 드라마 판권 계약되었다."
+        ]
+      },
+      "en": {
+        "aboutBook": [
+          "On the day of the College Scholastic Ability Test, an accident at an intersection twists one girl's future in an instant. Na Young-ri, a model student with top internal grades and an almost certain path to Seoul National University, misses the exam and is forced to face her father's coma. Soon afterward, she receives an unbelievable offer: spend another senior year in high school in place of a conglomerate chairman's daughter, then take the exam for her.",
+          "The copycat girl accepts an offer she cannot refuse.\nOn academic elitism",
+          "Copycat Girl looks directly at the bare face of Korean society, where academic elitism and the myth of meritocracy are intertwined. Texty's current-affairs fiction series Side Mirror was created to look closely at social problems we have witnessed but too easily forget. This work asks how the seemingly fairest system, college entrance exams, is in fact shaped by class and capital, and what kind of cliff-edge choices individuals are forced to make within it.",
+          "After the accident, Young-ri moves from one part-time job to another to cover hospital bills and living expenses. Because she missed the exam, both early and regular admissions automatically reject her, and three years of achievement collapse overnight. Then the secretary of Chairman Song, whom her father served, comes to find her. Young-ri looks exactly like Song's daughter Cho-rom, and her admission to Seoul National University had seemed certain. That makes her the only person suited for the dangerous project of taking the exam by proxy.\nYoung-ri, who has never even jaywalked, refuses outright. But reality keeps pressing in: mounting medical bills, the landlord's demand for a higher deposit, and her father's emergency condition. In the end, Young-ri decides to enter the exam room under another name. Chairman Song demands not only a high test score, but also that she join Haneul, the study group of top students at Daemyeong High School, so Cho-rom can enter upper-class society and build ties with children from powerful families. Thus Young-ri's \"copycat project\" begins.\nThrough this journey of imitation, the lives of Young-ri and Cho-rom become increasingly entangled, cracks appear inside the world of power, and the price of choice arrives deeper and heavier than expected. Beyond the provocative setup of a proxy exam, Copycat Girl is a psychological thriller and social mystery that pushes the question \"Whose opportunity is imitation?\" to the very end. It also asks whether our own subjecthood as objects remains intact."
+        ],
+        "aboutAuthor": [
+          "The author began publishing after receiving the Kim Yu-jeong New Writer Literary Award in 2022. In the same year, the author was selected for the Korea Creative Content Agency's emerging story writer program and published the first full-length novel, Hwagwongwi Stationery. Other works include the SF collection The Door of Morpheus, the children's novels The Strange Story of the Signless Stationery Store and Again, Jeong Da-un, and contributions to several anthologies including Juvenile Offender, The Villain Is You, Is There an Ending?, and 1945: Before This World Disappears. Hwagwongwi Stationery has been published overseas, and the short story Portland Officetel, included in All Our Relationships Are Everyone's Business, was optioned for a television drama."
+        ]
+      },
+      "vi": {
+        "aboutBook": [
+          "Vào ngày thi đại học, một vụ tai nạn tại ngã tư đã làm tương lai của một cô gái đổi hướng chỉ trong khoảnh khắc. Na Young-ri, học sinh gương mẫu với điểm nội bộ hạng nhất và gần như chắc chắn đỗ Đại học Quốc gia Seoul, không thể dự thi và phải đối mặt với việc cha rơi vào hôn mê. Không lâu sau, cô nhận được một đề nghị khó tin: thay con gái của một chủ tịch tập đoàn trải qua thêm một năm lớp 12 và dự thi đại học.",
+          "Cô gái mô phỏng chấp nhận một đề nghị không thể từ chối.\nVề chủ nghĩa tôn sùng học vấn",
+          "Copycat Girl nhìn thẳng vào bộ mặt trần trụi của xã hội Hàn Quốc, nơi chủ nghĩa tôn sùng học vấn kết hợp với huyền thoại năng lực chủ nghĩa. Series tiểu thuyết thời sự Side Mirror của Texty được lên kế hoạch để nhìn những vấn đề xã hội mà chúng ta từng chứng kiến nhưng dễ dàng lãng quên ở khoảng cách gần nhất. Tác phẩm này đặt câu hỏi rằng chế độ thi cử tưởng như công bằng nhất thực ra bị giai cấp và tư bản chi phối ra sao, và trong đó mỗi cá nhân bị đẩy đến bờ vực lựa chọn như thế nào.",
+          "Sau vụ tai nạn, Young-ri phải làm nhiều công việc bán thời gian để chi trả viện phí và sinh hoạt. Vì không dự thi, cả tuyển sinh sớm lẫn tuyển sinh thường của cô đều tự động bị loại, và thành tích tích lũy suốt ba năm sụp đổ chỉ sau một đêm. Khi ấy, thư ký của Chủ tịch Song, người mà cha cô từng phục vụ, tìm đến Young-ri. Young-ri có khuôn mặt giống hệt Cho-rom, con gái của Chủ tịch Song, và việc cô đỗ Đại học Quốc gia Seoul gần như đã nằm trong tay. Vì vậy, cô là người duy nhất có thể thực hiện dự án nguy hiểm: thi hộ đại học.\nYoung-ri, người thậm chí chưa từng băng qua đường trái phép, lập tức từ chối. Nhưng hiện thực ngày càng dồn ép cô: viện phí chồng chất, yêu cầu tăng tiền đặt cọc của chủ nhà, tình trạng khẩn cấp của cha. Cuối cùng, Young-ri quyết định bước vào phòng thi dưới một cái tên khác. Chủ tịch Song không chỉ yêu cầu điểm thi cao, mà còn buộc cô tham gia Haneul, nhóm học tập của những học sinh xuất sắc ở trường trung học Daemyeong, để Cho-rom có thể bước vào tầng lớp thượng lưu và kết giao với con cái các gia đình quyền lực. Như vậy, \"dự án copycat\" của Young-ri bắt đầu.\nThông qua hành trình mô phỏng này, cuộc đời của Young-ri và Cho-rom ngày càng quấn vào nhau, những rạn nứt trong nội bộ quyền lực dần lộ ra, và cái giá của lựa chọn trở nên sâu nặng hơn tưởng tượng. Vượt ra ngoài bối cảnh kích thích của việc thi hộ đại học, Copycat Girl là một thriller tâm lý kiêm bí ẩn xã hội, đẩy câu hỏi \"cơ hội của sự mô phỏng thuộc về ai?\" đến tận cùng. Đồng thời, tác phẩm cũng hỏi liệu tính chủ thể của chúng ta, khi bị biến thành đối tượng, có còn bình yên hay không."
+        ],
+        "aboutAuthor": [
+          "Tác giả bắt đầu hoạt động văn chương sau khi nhận Giải Văn học Tân binh Kim Yu-jeong năm 2022. Cùng năm, tác giả được chọn trong chương trình tuyển chọn nhà văn truyện mới của Cơ quan Nội dung Sáng tạo Hàn Quốc và xuất bản tiểu thuyết dài đầu tay Hwagwongwi Stationery. Tác giả còn viết tập truyện SF The Door of Morpheus, truyện thiếu nhi dài The Strange Story of the Signless Stationery Store và Again, Jeong Da-un, đồng thời góp mặt trong nhiều tuyển tập như Juvenile Offender, The Villain Is You, Is There an Ending? và 1945: Before This World Disappears. Hwagwongwi Stationery đã được xuất bản ở nước ngoài, còn truyện ngắn Portland Officetel trong All Our Relationships Are Everyone's Business đã được ký hợp đồng chuyển thể thành phim truyền hình."
+        ]
+      }
+    }
+  },
+  {
+    "id": "sleeplessStories",
+    "title": "잠이 달아나는 이야기",
+    "publisher": "거북이북스",
+    "genre": "아동",
+    "cover": "/books/new/sleepless-stories/cover.jpg",
+    "descriptions": {
+      "ko": {
+        "aboutBook": [
+          "아이의 밤을 안아 주는 잠자리 그림책",
+          "잠이 안 오는 밤의 불안은 수아 혼자만의 문제가 아닙니다. 부엉이도, 토끼도, 곰도 각자의 이유로 잠을 잊은 채 밤을 보내고 있습니다. 수아는 동물 친구들과 함께 잠을 찾아 나서며 헤매고, 묻고, 공감합니다. 잠은 어디로 달아난 걸까요? 잠은 애써 찾아야 하는 것처럼 느껴지지만 생각해 보면 잠은 자연스럽게 찾아옵니다. 이 이야기는 결국 이 한마디를 전하기 위한 여정일지도 모릅니다. ‘노력하지 않아도 괜찮아.’",
+          "《잠이 달아나는 이야기》는 잠자리 책으로도, 불안한 아이를 안아 주는 책으로도 아주 좋은 그림책입니다. 이 책이 특별한 이유는 ‘우리가 찾는 답은 멀리 있지 않다.’라는 메시지를 설명하지 않고 경험하게 만든다는 점입니다. 아이 그림책답게 부드럽고, 몸으로 느끼는 이야기 구조를 통해 자연스럽게 깨달음에 이르게 합니다."
+        ],
+        "aboutAuthor": [
+          "이경화 Lee Kyung-hwa\n일러스트레이터로 활동했습니다.\n《잠이 달아나는 이야기》는 쓰고 그린 첫 그림책입니다."
+        ]
+      },
+      "en": {
+        "aboutBook": [
+          "A bedtime picture book that embraces a child's night",
+          "The anxiety of a sleepless night is not Su-a's problem alone. The owl, the rabbit, and the bear are all spending the night awake for their own reasons. Together with her animal friends, Su-a sets out to find sleep, wandering, asking, and sharing their feelings. Where did sleep run away to? Sleep can feel like something we must work hard to find, but when we think about it, sleep comes naturally. This story may ultimately be a journey toward one simple sentence: \"It is okay not to try so hard.\"",
+          "Sleepless Stories is a wonderful picture book both as a bedtime story and as a book that comforts anxious children. What makes it special is that it does not explain the message, \"The answer we seek is not far away\"; instead, it lets readers experience it. With the gentle softness of a children's picture book and a story structure felt through the body, it naturally guides readers toward that realization."
+        ],
+        "aboutAuthor": [
+          "Lee Kyung-hwa\nShe has worked as an illustrator.\nSleepless Stories is the first picture book she has written and illustrated."
+        ]
+      },
+      "vi": {
+        "aboutBook": [
+          "Một cuốn sách tranh trước giờ ngủ ôm lấy đêm của trẻ",
+          "Nỗi bất an của một đêm không ngủ không chỉ là vấn đề của riêng Su-a. Cú mèo, thỏ và gấu cũng đang thức qua đêm vì những lý do của riêng mình. Su-a cùng các bạn động vật lên đường đi tìm giấc ngủ, vừa lang thang, vừa hỏi han, vừa đồng cảm. Giấc ngủ đã chạy đi đâu? Ta có cảm giác như phải cố gắng tìm kiếm giấc ngủ, nhưng nếu nghĩ lại, giấc ngủ vốn đến một cách tự nhiên. Có lẽ câu chuyện này rốt cuộc là một hành trình để truyền đi một lời duy nhất: \"Không cần cố gắng cũng không sao.\"",
+          "Sleepless Stories là một cuốn sách tranh rất phù hợp cả như sách đọc trước giờ ngủ, lẫn như một cuốn sách ôm lấy những đứa trẻ đang bất an. Điều đặc biệt của cuốn sách là nó không giải thích thông điệp \"câu trả lời ta tìm kiếm không ở đâu xa\", mà khiến người đọc tự trải nghiệm điều đó. Với sự mềm mại đúng chất sách tranh thiếu nhi và cấu trúc câu chuyện được cảm nhận bằng cơ thể, tác phẩm dẫn người đọc đến sự nhận ra một cách tự nhiên."
+        ],
+        "aboutAuthor": [
+          "Lee Kyung-hwa\nCô từng hoạt động với tư cách họa sĩ minh họa.\nSleepless Stories là cuốn sách tranh đầu tiên cô tự viết và vẽ."
+        ]
+      }
+    }
+  },
+  {
+    "id": "anonymousSerial",
+    "title": "익명연재",
+    "publisher": "텍스티",
+    "genre": "소설",
+    "cover": "/books/new/anonymous-serial/cover.jpg",
+    "descriptions": {
+      "ko": {
+        "aboutBook": [
+          "같은 한 줄, 다른 두 편의 이야기. 매드앤미러 프로젝트.\n매드앤미러는 ‘매력적인 한 문장이 각기 다른 작가를 만날 때 어떻게 달라질까?’라는 재미있는 상상에서 시작한 텍스티(TXTY)의 프로젝트다. 그 상상을 현실로 만들기 위해 호러 전문 창작 집단 ‘매드클럽’과 환상문학 웹진 ‘거울’을 모았다.\n같은 한 줄에서 출발했으나, 전혀 다른 이야기가 펼쳐지는 다채로운 매드앤미러의 이야기 세계로 독자들을 초대한다.",
+          "『스며드는 것들』  | 웹툰 작가 우진이 어떻게든 벗어나고자 했던 낡고 좁은 번영빌\n라 404호. 그는 결혼을 앞두고 그 지긋지긋한 빌라에서 벗어날 수 있는 방법을\n찾아낸다. 바로 옆집에 사는 대학 동기 수희의 작품 <빙의>를 빼앗는 것. 그녀\n의 시나리오를 처음 마주한 순간, 우진의 마음은 욕망에 찬 광기로 마음을 출렁\n였다. 결국 우진은 수희의 작품을 빼앗고, 그날 밤 극심한 우울증을 앓던 수희는\n자살하고 말았다. 우진은 우울증 때문에 자살했다고 마음을 다스렸고, <빙의>\n를 웹툰으로 옮기며 죄책감은 점차 희미해져 갔다.\n그러던 어느 날, 아직 런칭하지 않은 <빙의>의 표절 웹툰이 한 커뮤니티에 올라\n온다. 그 안에는 <빙의>의 일부뿐 아니라, 우진이 수희의 작품을 빼앗은 과정이\n생생하게 담겨 있었다.\n도대체 이 작품의 작가는 누구일까.",
+          "『이계전이 연재 중단을 요청합니다』 | 열일곱 살 태양은 망할 놈의 트럭에 치인 날\n마족과 인간이 공존하는 ‘칼드레아’ 대륙으로 옮겨진다. 그곳에서 태양은 전설이\n계시한 용사로 추대받았고, 엄청난 마력을 얻어 거대마신을 쓰러뜨리고 마왕을\n봉인하는 데 성공한다. 그리고 다시 대한민국으로 돌아왔을 때, 태양의 칭호는\n고교 중퇴자로 추락했다.\n그렇게 택배 상하차 아르바이트를 하며 지내던 태양은 지인의 소개로 <이계전\n기>라는 인기 웹툰을 보게 된다. 거기엔 자신이 겪은 일이 자세하게 담겨 있었\n다. 놀란 태양은 작가의 사인회를 찾아가고 그곳에서 작가로 등장하는 마왕을\n보게 된다. 분명 직접 봉인했던 마왕이었다. 그녀는 별안간 자신의 어시스턴트\n가 되지 않으면 도시 한복판에 거대마신을 풀겠다며 치사한 협박을 한다. 이에\n태양은 결심한다. 이렇게 된 거 마왕의 진짜 목적을 파헤쳐 보겠다고."
+        ],
+        "aboutAuthor": [
+          "이종호\n『이프』 『귀신전』 『모녀귀』 등의 공포 장편 소설을집필했고 그중 『모녀귀』는 영화 <분신사바>로\n만들어졌다. <두 개의 달>, <소녀괴담> 등의 시나리오를 썼고, 황금드래곤 문학상과 종말문학상\n등의 심사위원을 맡았다. 현실과 환상의 경계를넘나드는 상상의 유연함과 미지의 영역에서 일어\n나는 사건의 의외성이 공포 장르가 주는 매력이라고 생각한다.",
+          "홍지운\n공상연애소설가. 기혼. 청강문화산업대학교 웹소설창작전공 교수. 본명 홍석인. 제2회\nSF어워드에서 『무안만용 가르바니온』으로 대상 수상. 『구미베어 살인사건』, 『공상연애소설』 등의\n단편집을 집필했다. B급 호러와 코미디를 사랑하며, 본질적인 영역에서 이 둘에는 큰 차이가\n없다고 생각한다."
+        ]
+      },
+      "en": {
+        "aboutBook": [
+          "The same single line, two completely different stories. A Mad & Mirror project.",
+          "Mad & Mirror is a TXTY project that began with an intriguing question: how differently can one compelling sentence unfold when it meets different writers? To turn that idea into reality, TXTY brought together Mad Club, a creative group specializing in horror, and Mirror, a webzine devoted to fantastic literature.",
+          "Although the stories begin from the same line, they move into entirely different worlds. Readers are invited into the diverse and unpredictable universe of Mad & Mirror.",
+          "Things That Seep In",
+          "Room 404 of old, cramped Beonyeong Villa is the place webtoon artist Woo-jin has been desperate to escape. With his wedding approaching, he finds a way out: stealing Possession, a work written by Su-hui, his college classmate who lives next door.",
+          "The moment Woo-jin first reads her scenario, his desire swells into madness. He eventually takes Su-hui's work, and that very night Su-hui, who had been suffering from severe depression, dies by suicide. Woo-jin tells himself that her depression was the cause, and as he adapts Possession into a webtoon, his guilt slowly fades.",
+          "Then one day, a plagiarized webtoon based on the still-unreleased Possession appears on an online community. It contains not only parts of Possession but also a vivid account of how Woo-jin stole Su-hui's work.",
+          "Who on earth is the author of this webtoon?",
+          "Lee Gye-jeon Requests That the Serial Be Discontinued",
+          "Seventeen-year-old Tae-yang is hit by a terrible truck and transported to Caldria, a continent where demons and humans coexist. There, he is hailed as the hero of prophecy, gains tremendous magical power, defeats a giant demon god, and succeeds in sealing the Demon King. But when he returns to Korea, his title has fallen to high school dropout.",
+          "While working a parcel-loading part-time job, Tae-yang is introduced to a popular webtoon called Otherworld War Chronicle. It describes his own experiences in astonishing detail. Shocked, Tae-yang attends the author's signing event and sees the Demon King appearing as the author. It is unmistakably the very Demon King he once sealed away.",
+          "She suddenly threatens to unleash a giant demon god in the middle of the city unless he becomes her assistant. Tae-yang makes up his mind: since things have come this far, he will uncover the Demon King's true purpose."
+        ],
+        "aboutAuthor": [
+          "Lee Jong-ho",
+          "Lee Jong-ho has written horror novels including If, Ghost War, and Mother-Daughter Ghost. Mother-Daughter Ghost was adapted into the film Bunshinsaba. He also wrote screenplays such as Two Moons and Mourning Grave, and has served as a judge for awards including the Golden Dragon Literature Award and the Apocalypse Literature Award. He believes the appeal of horror lies in the flexibility of imagination that crosses the boundary between reality and fantasy, and in the unexpected events that arise in unknown territory.",
+          "Hong Ji-un",
+          "Hong Ji-un is a speculative romance novelist, married, and a professor in the web novel writing program at Chungkang College of Cultural Industries. His legal name is Hong Seok-in. He won the grand prize at the 2nd SF Awards for Muanmanyong Garbanion and has written collections including The Gumi Bear Murder Case and Speculative Romance. He loves B-grade horror and comedy, and believes that at their core, the two are not very different."
+        ]
+      },
+      "vi": {
+        "aboutBook": [
+          "Cùng một câu mở đầu, hai câu chuyện hoàn toàn khác nhau. Một dự án Mad & Mirror.",
+          "Mad & Mirror là dự án của TXTY, bắt đầu từ một tưởng tượng thú vị: một câu văn hấp dẫn sẽ thay đổi như thế nào khi gặp những tác giả khác nhau? Để biến ý tưởng đó thành hiện thực, TXTY đã quy tụ Mad Club, nhóm sáng tác chuyên về kinh dị, và Mirror, tạp chí web về văn học kỳ ảo.",
+          "Từ cùng một câu văn xuất phát, những câu chuyện mở ra theo những hướng hoàn toàn khác nhau, mời độc giả bước vào thế giới đa sắc và khó đoán của Mad & Mirror.",
+          "Những thứ thấm vào",
+          "Phòng 404 của khu Beonyeong Villa cũ kỹ và chật hẹp là nơi họa sĩ webtoon Woo-jin muốn thoát khỏi bằng mọi giá. Trước ngày kết hôn, anh tìm ra một cách để rời khỏi căn hộ ngột ngạt ấy: chiếm đoạt Possession, tác phẩm của Su-hui, bạn học đại học sống ngay cạnh nhà.",
+          "Ngay khoảnh khắc đọc kịch bản của cô, trong Woo-jin dâng lên một cơn cuồng vọng đầy ham muốn. Cuối cùng anh cướp lấy tác phẩm của Su-hui, và đêm đó Su-hui, vốn đang chịu chứng trầm cảm nặng, đã tự sát. Woo-jin tự trấn an rằng cô chết vì trầm cảm; khi chuyển thể Possession thành webtoon, cảm giác tội lỗi trong anh cũng dần nhạt đi.",
+          "Rồi một ngày, một webtoon đạo nhái Possession, tác phẩm còn chưa ra mắt, xuất hiện trên một cộng đồng mạng. Trong đó không chỉ có một phần nội dung của Possession mà còn ghi lại sống động cả quá trình Woo-jin cướp tác phẩm của Su-hui.",
+          "Rốt cuộc tác giả của webtoon này là ai?",
+          "Lee Gye-jeon yêu cầu ngừng đăng dài kỳ",
+          "Tae-yang, mười bảy tuổi, bị một chiếc xe tải chết tiệt tông phải và được đưa đến lục địa Caldria, nơi ma tộc và con người cùng tồn tại. Ở đó, cậu được tôn làm anh hùng trong lời tiên tri, nhận được ma lực khổng lồ, đánh bại đại ma thần và phong ấn thành công Ma Vương. Nhưng khi trở về Hàn Quốc, danh hiệu của Tae-yang lại rơi xuống thành một học sinh bỏ học cấp ba.",
+          "Trong lúc làm thêm bốc dỡ hàng chuyển phát, Tae-yang được người quen giới thiệu một webtoon nổi tiếng tên Otherworld War Chronicle. Trong đó ghi lại rất chi tiết những chuyện chính cậu đã trải qua. Kinh ngạc, Tae-yang tìm đến buổi ký tặng của tác giả và thấy Ma Vương xuất hiện với tư cách tác giả. Đó rõ ràng là Ma Vương mà cậu từng trực tiếp phong ấn.",
+          "Cô ta đột ngột đe dọa rằng nếu cậu không trở thành trợ lý của mình, cô sẽ thả đại ma thần vào giữa thành phố. Tae-yang quyết định: đã đến nước này thì cậu sẽ tìm ra mục đích thật sự của Ma Vương."
+        ],
+        "aboutAuthor": [
+          "Lee Jong-ho",
+          "Lee Jong-ho đã viết các tiểu thuyết kinh dị dài như If, Ghost War và Mother-Daughter Ghost; trong đó Mother-Daughter Ghost được chuyển thể thành phim Bunshinsaba. Ông cũng viết kịch bản cho Two Moons, Mourning Grave và từng làm giám khảo cho các giải thưởng văn học như Giải Văn học Golden Dragon và Giải Văn học Apocalypse. Ông cho rằng sức hấp dẫn của thể loại kinh dị nằm ở trí tưởng tượng linh hoạt vượt qua ranh giới giữa hiện thực và kỳ ảo, cùng những biến cố bất ngờ xảy ra trong vùng chưa biết.",
+          "Hong Ji-un",
+          "Hong Ji-un là nhà văn tiểu thuyết tình yêu giả tưởng, đã kết hôn, hiện là giáo sư ngành sáng tác web novel tại Đại học Công nghiệp Văn hóa Chungkang. Tên thật của ông là Hong Seok-in. Ông đoạt giải lớn tại SF Awards lần thứ 2 với Muanmanyong Garbanion và đã viết các tập truyện như The Gumi Bear Murder Case và Speculative Romance. Ông yêu thích kinh dị hạng B và hài kịch, đồng thời cho rằng về bản chất hai thể loại này không khác nhau nhiều."
+        ]
+      }
+    }
+  },
+  {
+    "id": "oneMinuteBreath",
+    "title": "1분 호흡이 아이의 뇌를 바꾼다",
+    "publisher": "세종서적",
+    "genre": "자기계발",
+    "cover": "/books/new/one-minute-breath/cover.jpg",
+    "descriptions": {
+      "ko": {
+        "aboutBook": [
+          "“당신의 아이는 지금, 제대로 숨 쉬고 있습니까?”  \n성적보다 먼저 챙겨야 할 것은 아이의 호흡이다!\n집중력과 면역력을 키우고,\n공부 잠재력을 깨우는 1분 호흡의 힘",
+          "“내 아이는 왜 책상 앞에만 앉으면 멍해질까?”\n많은 부모는 아이가 산만하거나 쉽게 지치면 공부 습관, 스마트폰, 의지력부터 떠올린다. 그러나 이 책은 전혀 다른 관점을 제시한다. 뇌는 우리 몸에서 가장 많은 산소를 쓰는 기관이며, 산소 공급에 조금만 문제가 있어도 집중력과 기억력, 감정 조절 능력이 먼저 영향을 받는다. 즉 공부의 문제를 공부법 이전에 ‘생리학의 문제’로 다시 바라본다. 밀폐된 실내, 줄어든 야외 활동, 계절 변화와 공기 환경의 흔들림 등 환경 변화도 아이의 숨에 영향을 준다. 이것이 이 책이 기존 학습서나 육아서와 구분되는 큰 차별점이다. \n \n이 책이 특별한 이유는 막연한 건강 조언에 그치지 않기 때문이다. 흉부외과 전문의의 임상 경험과 의학적 근거를 바탕으로, 호흡이 아이의 집중력, 감정 조절, 면역력, 수면, 성장에 어떤 영향을 미치는지 부모의 눈높이에서 명확하게 풀어낸다. 흉부외과의 박억숭 박사와 서보경 저자는 얕은 호흡, 밀폐된 실내, 반복되는 염증, 수면 부족, 잘못된 자세와 식습관이 아이의 뇌를 어떻게 ‘절전 모드’로 몰아넣는지 구체적으로 설명한다. 동시에 부모가 오늘 당장 실천할 수 있는 방법도 제안한다. 박스 브리딩, 숨 건강 자가 진단, 환기와 야외 활동, 수면과 자세 교정 등 ‘아이 뇌를 살리는 1분 처방전’이 곳곳에 담겨 있다. 거창한 이론보다 생활 속에서 바로 적용할 수 있는 실전 가이드다.",
+          "특히 『1분 호흡이 아이의 뇌를 바꾼다』는 부모의 태도까지 달라지게 한다. 혼내기 전에 먼저 이해하게 하고, 다그치기 전에 먼저 회복시키게 한다. 이 책은 성적표보다 먼저 바뀌는 것은 아이의 숨, 에너지, 그리고 하루의 리듬이라고 말한다. 집중력과 면역력을 함께 키우고 싶은 부모, 아이의 컨디션과 공부 효율을 함께 살리고 싶은 부모에게 이 책은 매우 실용적인 출발점이 되어줄 것이다."
+        ],
+        "aboutAuthor": [
+          "박억숭\n흉부외과 전문의이자 의학박사, 경영학석사(MBA). \n현재 경기도의료원 파주병원 응급의료센터에서 생명의 최전선을 지키고 있다. 폐와 심장, 산소와 생명의 관계를 누구보다 가까이에서 다뤄온 그는, 오랜 임상 경험을 통해 ‘숨이 흔들리면 몸과 뇌가 함께 흔들린다’는 사실을 끊임없이 확인해왔다.\n그동안 의대생과 간호대생을 위해 『해부학』, 『병리학』, 『약리학』 등 다수의 전문 교재를 집필했으며, 복잡한 기초의학을 쉽고 명쾌하게 풀어내는 『Easy Fun Happy』 시리즈로 많은 예비 의료인의 길잡이가 되었다.\n이 책에서는 흉부외과 전문의로서 쌓아온 임상 경험과 의학적 통찰을 바탕으로, 아이의 집중력, 감정, 면역, 성장의 바탕에 놓인 ‘호흡’의 문제를 부모의 눈높이에서 쉽게 풀어낸다. 나아가 아이의 변화를 성격이나 태도보다 몸의 신호로 이해하도록 돕고, 일상에서 바로 적용할 수 있는 실천법까지 제안한다.",
+          "서보경\n두 아이를 키우는 아버지이자 공동 저자. 부모가 일상에서 마주하는 아이의 산만함, 예민함, 피로를 현실의 언어로 질문하고 풀어내며, 의학적 설명이 부모의 실제 고민과 맞닿도록 이 책의 흐름을 함께 만들었다. \n연세대학교 경영학과를 졸업했으며, 보스턴컨설팅그룹(BCG), 샌포드번스틴, 넷플릭스 아시아 지역본부 등 글로벌 조직에서 전략과 커뮤니케이션 업무를 수행했다. 복잡한 개념을 핵심만 남겨 명료하게 전달하는 강점을 바탕으로, 이 책에서는 의학 지식과 부모의 현실 사이를 잇는 가교역할을 하고 있다. 저서로는 『넷플릭스 인사이드』, 『‘공부’에서 ‘무기’로 바꾸는 영어 마인드셋의 기적 20』이 있다."
+        ]
+      },
+      "en": {
+        "aboutBook": [
+          "\"Is your child breathing properly right now?\"",
+          "Before grades, parents need to look at a child's breathing. The power of one-minute breathing builds focus and immunity, and awakens learning potential.",
+          "\"Why does my child become blank as soon as they sit at the desk?\"",
+          "When a child is distracted or easily exhausted, many parents first think of study habits, smartphones, or willpower. This book offers a completely different point of view. The brain uses more oxygen than any other organ in the body, and even a small problem in oxygen supply can affect focus, memory, and emotional regulation first. In other words, it asks us to look at learning problems as questions of physiology before questions of study methods. Closed indoor spaces, reduced outdoor activity, seasonal changes, and unstable air environments also influence a child's breathing. This is what sets the book apart from ordinary study guides or parenting books.",
+          "What makes this book special is that it does not stop at vague health advice. Based on the clinical experience and medical evidence of a thoracic surgeon, it clearly explains, from a parent's point of view, how breathing affects a child's concentration, emotional regulation, immunity, sleep, and growth. Dr. Park Eok-sung, a thoracic surgeon, and coauthor Seo Bo-kyung explain in detail how shallow breathing, closed indoor spaces, repeated inflammation, lack of sleep, poor posture, and eating habits can push a child's brain into \"power-saving mode.\" At the same time, they suggest steps parents can begin today. Box breathing, a self-check for breathing health, ventilation and outdoor activity, sleep care, and posture correction appear throughout the book as one-minute prescriptions that revive a child's brain. Rather than grand theory, this is a practical guide that can be applied immediately in daily life.",
+          "Above all, One Minute Breathing Changes a Child's Brain changes a parent's attitude. It helps parents understand before scolding, and help children recover before pushing them harder. The book says what changes before the report card is a child's breath, energy, and daily rhythm. For parents who want to nurture both focus and immunity, and improve both their child's condition and learning efficiency, this book offers a highly practical starting point."
+        ],
+        "aboutAuthor": [
+          "Park Eok-sung",
+          "Park Eok-sung is a thoracic surgeon, medical doctor, and MBA. He currently works on the front line of life at the Emergency Medical Center of Paju Hospital, Gyeonggi Provincial Medical Center. Having dealt closely with the lungs, heart, oxygen, and life itself, he has repeatedly confirmed through years of clinical experience that when breathing is unstable, the body and brain become unstable together.",
+          "He has written many professional textbooks for medical and nursing students, including Anatomy, Pathology, and Pharmacology. Through the Easy Fun Happy series, which explains complex basic medicine in a clear and approachable way, he has guided many future medical professionals.",
+          "In this book, he draws on his clinical experience and medical insight as a thoracic surgeon to explain the issue of breathing, which lies beneath children's focus, emotions, immunity, and growth, in language parents can understand. He also helps parents understand children's changes as signals from the body rather than merely matters of personality or attitude, and suggests practices that can be applied immediately in daily life.",
+          "Seo Bo-kyung",
+          "Seo Bo-kyung is the father of two children and a coauthor of this book. He asks and answers, in real-life language, the questions parents face every day about children's distractibility, sensitivity, and fatigue, shaping the flow of the book so that medical explanations connect directly with parents' actual concerns.",
+          "He graduated from Yonsei University with a degree in business administration and has worked in strategy and communications at global organizations including Boston Consulting Group, Sanford C. Bernstein, and Netflix's Asia regional headquarters. With a strength in clarifying complex ideas by leaving only the essence, he serves in this book as a bridge between medical knowledge and the realities of parenting. His books include Netflix Inside and 20 Miracles of the English Mindset: Turning Study into a Weapon."
+        ]
+      },
+      "vi": {
+        "aboutBook": [
+          "\"Con bạn hiện có đang thở đúng cách không?\"",
+          "Điều cần quan tâm trước thành tích học tập chính là hơi thở của trẻ. Sức mạnh của một phút thở giúp tăng khả năng tập trung và miễn dịch, đồng thời đánh thức tiềm năng học tập.",
+          "\"Vì sao con tôi cứ ngồi vào bàn học là lại ngẩn người?\"",
+          "Khi trẻ mất tập trung hoặc dễ mệt mỏi, nhiều phụ huynh thường nghĩ ngay đến thói quen học tập, điện thoại thông minh hoặc ý chí. Nhưng cuốn sách này đưa ra một góc nhìn hoàn toàn khác. Não là cơ quan sử dụng nhiều oxy nhất trong cơ thể; chỉ một vấn đề nhỏ trong việc cung cấp oxy cũng có thể ảnh hưởng trước tiên đến khả năng tập trung, trí nhớ và điều tiết cảm xúc. Nói cách khác, cuốn sách nhìn vấn đề học tập như một vấn đề sinh lý học trước khi là vấn đề phương pháp học. Không gian trong nhà khép kín, hoạt động ngoài trời giảm, thay đổi theo mùa và môi trường không khí bất ổn cũng tác động đến hơi thở của trẻ. Đây là điểm khác biệt lớn giữa cuốn sách này và các sách học tập hoặc nuôi dạy con thông thường.",
+          "Điều đặc biệt của cuốn sách là nó không dừng ở những lời khuyên sức khỏe mơ hồ. Dựa trên kinh nghiệm lâm sàng và căn cứ y học của một bác sĩ phẫu thuật lồng ngực, sách giải thích rõ ràng từ góc nhìn của phụ huynh rằng hơi thở ảnh hưởng thế nào đến sự tập trung, khả năng điều tiết cảm xúc, miễn dịch, giấc ngủ và sự phát triển của trẻ. Bác sĩ Park Eok-sung và đồng tác giả Seo Bo-kyung trình bày cụ thể cách hơi thở nông, không gian trong nhà khép kín, viêm nhiễm lặp lại, thiếu ngủ, tư thế và thói quen ăn uống sai có thể đẩy não trẻ vào \"chế độ tiết kiệm năng lượng\". Đồng thời, sách cũng gợi ý những việc cha mẹ có thể thực hành ngay hôm nay. Thở hộp, tự kiểm tra sức khỏe hô hấp, thông gió và hoạt động ngoài trời, điều chỉnh giấc ngủ và tư thế xuất hiện xuyên suốt như những đơn thuốc một phút giúp hồi sinh não bộ của trẻ. Đây không phải lý thuyết lớn lao mà là một hướng dẫn thực tiễn có thể áp dụng ngay trong đời sống.",
+          "Đặc biệt, Một phút thở thay đổi não bộ của trẻ còn làm thay đổi thái độ của cha mẹ. Sách giúp phụ huynh hiểu trước khi mắng, giúp trẻ hồi phục trước khi thúc ép. Cuốn sách nói rằng điều thay đổi trước bảng điểm là hơi thở, năng lượng và nhịp sinh hoạt hằng ngày của trẻ. Với những phụ huynh muốn nuôi dưỡng cả khả năng tập trung lẫn miễn dịch, đồng thời cải thiện thể trạng và hiệu quả học tập của con, đây sẽ là một điểm khởi đầu rất thiết thực."
+        ],
+        "aboutAuthor": [
+          "Park Eok-sung",
+          "Park Eok-sung là bác sĩ chuyên khoa phẫu thuật lồng ngực, tiến sĩ y khoa và thạc sĩ quản trị kinh doanh. Hiện ông làm việc tại Trung tâm Cấp cứu của Bệnh viện Paju, Trung tâm Y tế tỉnh Gyeonggi, nơi tuyến đầu bảo vệ sự sống. Là người tiếp xúc gần gũi với phổi, tim, oxy và sự sống, qua nhiều năm kinh nghiệm lâm sàng ông không ngừng xác nhận rằng khi hơi thở dao động, cơ thể và não bộ cũng dao động theo.",
+          "Ông đã viết nhiều giáo trình chuyên môn cho sinh viên y khoa và điều dưỡng như Anatomy, Pathology và Pharmacology. Với bộ sách Easy Fun Happy, ông giải thích y học cơ sở phức tạp một cách dễ hiểu và rõ ràng, trở thành người hướng dẫn cho nhiều nhân sự y tế tương lai.",
+          "Trong cuốn sách này, dựa trên kinh nghiệm lâm sàng và hiểu biết y học tích lũy với tư cách bác sĩ phẫu thuật lồng ngực, ông giải thích dễ hiểu cho phụ huynh vấn đề hơi thở, nền tảng của sự tập trung, cảm xúc, miễn dịch và tăng trưởng của trẻ. Xa hơn, ông giúp cha mẹ hiểu sự thay đổi của trẻ như tín hiệu từ cơ thể thay vì chỉ là vấn đề tính cách hay thái độ, đồng thời đề xuất các phương pháp có thể áp dụng ngay trong sinh hoạt hằng ngày.",
+          "Seo Bo-kyung",
+          "Seo Bo-kyung là cha của hai con và là đồng tác giả. Ông đặt ra và giải đáp bằng ngôn ngữ đời thường những vấn đề phụ huynh gặp mỗi ngày như sự xao nhãng, nhạy cảm và mệt mỏi của trẻ, đồng thời cùng xây dựng mạch sách để các giải thích y học chạm đến nỗi băn khoăn thực tế của cha mẹ.",
+          "Ông tốt nghiệp ngành quản trị kinh doanh tại Đại học Yonsei và từng phụ trách chiến lược, truyền thông tại các tổ chức toàn cầu như Boston Consulting Group, Sanford C. Bernstein và trụ sở khu vực châu Á của Netflix. Với thế mạnh truyền đạt rõ ràng những khái niệm phức tạp bằng cách giữ lại phần cốt lõi, trong cuốn sách này ông đóng vai trò cầu nối giữa tri thức y học và thực tế nuôi dạy con. Các tác phẩm của ông gồm Netflix Inside và 20 Miracles of the English Mindset: Turning Study into a Weapon."
+        ]
+      }
+    }
+  }
+]

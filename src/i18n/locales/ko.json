@@ -148,6 +148,42 @@
   "partners": {
     "ariaLabel": "파트너 로고"
   },
+  "introduction": {
+    "eyebrow": "Global Rights Bridge",
+    "headline": "우리는 국경을 넘어 한국과 글로벌 출판 시장을 유기적으로 연결하고, 우수한 콘텐츠의 양방향 교류를 이끄는 글로벌 출판 에이전시입니다.",
+    "lede": "우리는 국경을 넘어 한국과 글로벌 출판 시장을 유기적으로 연결하고, 우수한 콘텐츠의 양방향 교류를 이끄는 글로벌 출판 에이전시입니다.",
+    "body": {
+      "first": "급변하는 글로벌 출판 시장에서 판권 비즈니스는 단순한 도서의 거래를 넘어, 서로 다른 문화권의 독자들을 하나로 잇는 깊은 문화적 공감의 과정입니다.",
+      "second": "부클리는 한국의 경쟁력 있는 K-콘텐츠를 베트남, 동남아, 중화권, 일본 등 아시아 전역에 널리 알리는 '수출(Outbound)'의 가교 역할을 수행함과 동시에, 해외 시장의 트렌디하고 가치 있는 우수 도서들을 엄선하여 국내 독자들에게 소개하는 '수입(Inbound)' 비즈니스를 함께 전개하고 있습니다.",
+      "third": "한국에서의 출판유통 경험과 탄탄한 글로벌 네트워크를 바탕으로, 각 국가별 시장의 고유한 특성을 정확히 분석하여 최적의 파트너십을 매칭합니다. 신생의 역동성과 베테랑의 노련함으로 귀사의 가장 든든하고 균형 잡힌 글로벌 비즈니스 동반자가 되겠습니다."
+    },
+    "lanes": {
+      "outbound": {
+        "label": "Outbound",
+        "title": "K-콘텐츠를 아시아를 넘어 세계로",
+        "body": "한국의 우수한 도서와 콘텐츠를 베트남, 동남아, 중화권, 일본 등 아시아 전역의 독자와 만나게 합니다. 현지 시장에 최적화된 전략과 파트너십으로 가치를 극대화합니다."
+      },
+      "inbound": {
+        "label": "Inbound",
+        "title": "해외 우수 도서를 국내 독자에게",
+        "body": "글로벌 시장의 트렌드와 작품성을 갖춘 도서를 발굴하여 한국 출판 시장에 소개합니다. 새로운 시선과 다양한 이야기가 국내 독자에게 닿을 수 있도록 연결합니다."
+      }
+    },
+    "principles": {
+      "marketInsight": {
+        "title": "Market Insight",
+        "body": "국가별 출판 시장의 흐름과 독자 트렌드를 분석하여 정확한 인사이트를 제공합니다."
+      },
+      "partnerMatching": {
+        "title": "Partner Matching",
+        "body": "검증된 네트워크와 전문성을 바탕으로 최적의 파트너를 연결하고 지속 가능한 협업을 만듭니다."
+      },
+      "balancedBusiness": {
+        "title": "Balanced Global Business",
+        "body": "수출과 수입의 균형 있는 비즈니스로 콘텐츠의 가치를 극대화하고 지속 가능한 성장을 함께합니다."
+      }
+    }
+  },
   "showcase": {
     "ariaLabel": "선정 도서 쇼케이스",
     "titleLine1": "무한한 이야기,",
@@ -170,7 +206,29 @@
     },
     "viewMore": "자세히 보기",
     "coverAlt": "{{title}} 표지",
-    "detailLabel": "{{title}} 상세 보기"
+    "detailLabel": "{{title}} 상세 보기",
+    "items": {
+      "laughRoom": {
+        "title": "웃음방",
+        "publisher": "거북이북스"
+      },
+      "copycatGirl": {
+        "title": "모방소녀",
+        "publisher": "텍스티"
+      },
+      "sleeplessStories": {
+        "title": "잠이 달아나는 이야기",
+        "publisher": "거북이북스"
+      },
+      "anonymousSerial": {
+        "title": "익명연재",
+        "publisher": "텍스티"
+      },
+      "oneMinuteBreath": {
+        "title": "1분 호흡이 아이의 뇌를 바꾼다",
+        "publisher": "세종서적"
+      }
+    }
   },
   "bookModal": {
     "close": "닫기",

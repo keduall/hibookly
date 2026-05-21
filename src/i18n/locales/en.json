@@ -148,6 +148,42 @@
   "partners": {
     "ariaLabel": "Partner logos"
   },
+  "introduction": {
+    "eyebrow": "Global Rights Bridge",
+    "headline": "A content licensing partner connecting Korea and the world",
+    "lede": "Across borders, we organically connect Korea with the global publishing market and lead two-way exchange for outstanding content.",
+    "body": {
+      "first": "In a rapidly changing publishing market, we go beyond simple book transactions and deliver valuable stories that connect readers across cultures.",
+      "second": "Bookly develops both outbound business, introducing competitive Korean K-content across Vietnam, Southeast Asia, Greater China, Japan, and the wider Asian market, and inbound business, selecting timely and distinctive international titles for Korean readers.",
+      "third": "Based on country-specific publishing networks and market insight, we build the right partnerships and trusted connections. We understand the value of content precisely and expand its potential to the world."
+    },
+    "lanes": {
+      "outbound": {
+        "label": "Outbound",
+        "title": "K-content beyond Asia, into the world",
+        "body": "We connect outstanding Korean books and content with readers across Vietnam, Southeast Asia, Greater China, Japan, and beyond. Market-fit strategies and partnerships maximize long-term value."
+      },
+      "inbound": {
+        "label": "Inbound",
+        "title": "Global titles for Korean readers",
+        "body": "We discover international titles with strong trends and literary value, then introduce them to Korea's publishing market so new perspectives and diverse stories can reach Korean readers."
+      }
+    },
+    "principles": {
+      "marketInsight": {
+        "title": "Market Insight",
+        "body": "We analyze national publishing flows and reader trends to provide precise market insight."
+      },
+      "partnerMatching": {
+        "title": "Partner Matching",
+        "body": "With a vetted network and professional judgment, we connect the right partners and build sustainable collaboration."
+      },
+      "balancedBusiness": {
+        "title": "Balanced Global Business",
+        "body": "Balanced inbound and outbound business maximizes content value and supports sustainable growth."
+      }
+    }
+  },
   "showcase": {
     "ariaLabel": "Selected book showcase",
     "titleLine1": "Endless stories,",
@@ -170,7 +206,29 @@
     },
     "viewMore": "View details",
     "coverAlt": "{{title}} cover",
-    "detailLabel": "View {{title}} details"
+    "detailLabel": "View {{title}} details",
+    "items": {
+      "laughRoom": {
+        "title": "Laugh Room",
+        "publisher": "Geobugi Books"
+      },
+      "copycatGirl": {
+        "title": "Copycat Girl",
+        "publisher": "Texty"
+      },
+      "sleeplessStories": {
+        "title": "Sleepless Stories",
+        "publisher": "Geobugi Books"
+      },
+      "anonymousSerial": {
+        "title": "Anonymous Serial",
+        "publisher": "Texty"
+      },
+      "oneMinuteBreath": {
+        "title": "One Minute Breathing Changes a Child's Brain",
+        "publisher": "Sejong Books"
+      }
+    }
   },
   "bookModal": {
     "close": "Close",

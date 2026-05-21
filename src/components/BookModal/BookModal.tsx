@@ -103,7 +103,7 @@ export default function BookModal({ book, onClose }: Props) {
                 {description?.aboutBook.length ? (
                   <section>
                     <h3 className="mt-0 mb-4 text-sm font-semibold tracking-[0.16em] uppercase text-bookly-primary">
-                      {t('bookModal.headings.intro')}
+                      About the book
                     </h3>
                     {description.aboutBook.map((paragraph, i) => (
                       <p key={i} className="m-0 mb-4 leading-[1.75] text-ink-2">
@@ -121,7 +121,7 @@ export default function BookModal({ book, onClose }: Props) {
                 {description?.aboutAuthor.length ? (
                   <section className="mt-8">
                     <h3 className="mb-4 text-sm font-semibold tracking-[0.16em] uppercase text-bookly-primary">
-                      {t('bookModal.headings.author')}
+                      About the author
                     </h3>
                     {description.aboutAuthor.map((paragraph, i) => (
                       <p key={i} className="m-0 mb-4 leading-[1.75] text-ink-2">

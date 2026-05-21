@@ -29,7 +29,7 @@ export default function News() {
             </div>
             <div>
               <h4 className="text-xl font-medium leading-[1.3] tracking-[-0.005em] m-0 mb-2 text-ink-1">
-                {t(`news.items.${n.id}.title`)}
+                {n.title}
               </h4>
               <p className="leading-[1.55] text-ink-3 m-0">
                 {t(`news.items.${n.id}.body`)}

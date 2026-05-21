@@ -32,9 +32,10 @@ export default function Books() {
     <ContentSection
       id="books"
       title={sectionTitles.books}
+      headerClassName="mx-auto [text-align:center]"
       revealBody={false}
     >
-      <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={220} role="tablist">
+      <Reveal className="flex justify-center gap-2 flex-wrap mb-10" delay={220} role="tablist">
         {bookFilters.map((f) => {
           const active = filter === f.value;
           return (

@@ -21,7 +21,7 @@ export default function Introduction() {
             delay={80}
             className="mb-9 text-sm font-semibold uppercase tracking-[0.28em] text-bookly-primary max-md:mb-6 max-md:text-[12px]"
           >
-            {t('introduction.eyebrow')}
+            Global Rights Bridge
           </Reveal>
 
           <Reveal
@@ -29,7 +29,7 @@ export default function Introduction() {
             delay={140}
             className="m-0 max-w-[740px] break-keep text-[46px] font-medium leading-[1.46] tracking-normal text-ink-1 [text-wrap:balance] max-xl:text-[40px] max-lg:max-w-[720px] max-md:text-[28px] max-md:leading-[1.42]"
           >
-            {t('introduction.headline')}
+            A content licensing partner connecting Korea and the world
           </Reveal>
 
           <div className="mt-12 max-w-[720px] space-y-9 max-md:mt-8 max-md:space-y-6">
@@ -38,7 +38,7 @@ export default function Introduction() {
                 key={key}
                 as="p"
                 delay={340 + index * 90}
-                className="m-0 break-keep text-[16px] leading-[1.92] text-[#5f5347] max-md:text-[15px] max-md:leading-[1.78]"
+                className="m-0 break-keep text-[16px] leading-[1.92] text-[#5f5347] max-md:leading-[1.78]"
               >
                 {t(`introduction.body.${key}`)}
               </Reveal>
@@ -48,7 +48,7 @@ export default function Introduction() {
 
         <Reveal
           delay={220}
-          className="relative z-10 ml-auto w-full max-w-[430px] max-lg:mx-auto max-md:max-w-[320px]"
+          className="introduction-visual relative z-10 ml-auto w-full max-w-[430px] max-lg:mx-auto max-md:max-w-[320px]"
         >
           <img
             src="/book-globe.png"
@@ -56,6 +56,12 @@ export default function Introduction() {
             className="block h-auto w-full object-contain"
             loading="lazy"
           />
+          <div className="introduction-frame" aria-hidden="true">
+            <span className="introduction-frame__line introduction-frame__line--top" />
+            <span className="introduction-frame__line introduction-frame__line--right" />
+            <span className="introduction-frame__line introduction-frame__line--bottom" />
+            <span className="introduction-frame__line introduction-frame__line--left" />
+          </div>
         </Reveal>
       </div>
     </ContentSection>

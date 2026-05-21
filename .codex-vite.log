@@ -1,0 +1,52 @@
+
+> bookly@0.1.0 dev
+> vite --mode development --host 127.0.0.1 --port 5173
+
+Port 5173 is in use, trying another one...
+Port 5174 is in use, trying another one...
+Port 5175 is in use, trying another one...
+Port 5176 is in use, trying another one...
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m416[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5177[22m/[39m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2mPM 5:32:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Partners/Partners.tsx, /src/styles/global.css[22m
+[2mPM 5:33:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Partners/Partners.tsx, /src/styles/global.css[22m
+[2mPM 5:34:28[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/i18n/locales/ko.json[22m
+[2mPM 5:39:49[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/global.css, /src/components/Nav/Nav.tsx, /src/components/About/About.tsx, /src/components/Books/Books.tsx, /src/components/Showcase/Showcase.tsx, /src/components/Contact/Contact.tsx, /src/components/BookModal/BookModal.tsx[22m
+[2mPM 5:39:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Nav/Nav.tsx, /src/styles/global.css[22m
+[2mPM 5:40:01[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Books/Books.tsx, /src/styles/global.css[22m
+[2mPM 5:40:08[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Showcase/Showcase.tsx, /src/styles/global.css[22m
+[2mPM 5:40:15[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Contact/Contact.tsx, /src/styles/global.css[22m
+[2mPM 5:40:21[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Network/Network.tsx[22m
+[2mPM 5:40:27[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/News/News.tsx[22m
+[2mPM 5:40:35[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Story/Story.tsx[22m
+[2mPM 5:40:42[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/LegacyTimeline/LegacyTimeline.tsx[22m
+[2mPM 5:40:47[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Partners/Partners.tsx, /src/styles/global.css[22m
+[2mPM 5:40:48[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/About/About.tsx, /src/styles/global.css[22m
+[2mPM 5:40:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhyUs/WhyUs.tsx, /src/styles/global.css[22m
+[2mPM 5:40:56[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhyUs/WhyUs.tsx, /src/styles/global.css[22m
+[2mPM 5:41:27[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Nav/Nav.tsx, /src/styles/global.css[22m
+[2mPM 5:42:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/styles/global.css, /src/components/Nav/Nav.tsx, /src/components/About/About.tsx, /src/components/Books/Books.tsx, /src/components/Showcase/Showcase.tsx, /src/components/Contact/Contact.tsx, /src/components/BookModal/BookModal.tsx[22m
+[2mPM 5:42:52[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/About/About.tsx, /src/styles/global.css[22m
+[2mPM 5:43:02[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhyUs/WhyUs.tsx, /src/styles/global.css[22m
+[2mPM 5:43:09[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Introduction/Introduction.tsx, /src/styles/global.css[22m
+[2mPM 5:43:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero/Hero.tsx, /src/styles/global.css[22m
+[2mPM 5:43:25[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/News/News.tsx[22m
+[2mPM 5:43:34[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/Story/Story.tsx[22m
+[2mPM 5:43:46[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/components/LegacyTimeline/LegacyTimeline.tsx[22m
+[2mPM 5:44:20[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/BookModal/BookModal.tsx, /src/styles/global.css[22m
+[2mPM 5:44:22[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/About/About.tsx, /src/styles/global.css[22m
+[2mPM 5:44:30[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/app/App.tsx, /src/styles/global.css[22m
+[2mPM 5:44:41[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhyUs/WhyUs.tsx, /src/styles/global.css[22m
+[2mPM 5:45:17[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhyUs/WhyUs.tsx, /src/styles/global.css[22m
+[2mPM 5:45:46[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Hero/Hero.tsx, /src/styles/global.css[22m
+[2mPM 5:47:23[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhyUs/WhyUs.tsx, /src/styles/global.css[22m
+[2mPM 5:49:00[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mindex.html[22m
+[2mPM 5:51:19[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/WhyUs/WhyUs.tsx, /src/styles/global.css[22m
+[2mPM 5:54:13[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/About/About.tsx, /src/styles/global.css[22m
+[2mPM 5:57:41[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/i18n/locales/en.json[22m
+[2mPM 5:57:49[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/i18n/locales/vi.json[22m
+[2mPM 6:00:44[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/i18n/locales/en.json[22m
+[2mPM 6:00:53[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2msrc/i18n/locales/vi.json[22m

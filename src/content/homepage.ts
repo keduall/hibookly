@@ -33,10 +33,30 @@ export const stats: { value: number; suffix?: string; labelKey: string }[] = [
 ];
 
 export const services = [
-  { num: '01', titleKey: 'about.services.01.title', bodyKey: 'about.services.01.body' },
-  { num: '02', titleKey: 'about.services.02.title', bodyKey: 'about.services.02.body' },
-  { num: '03', titleKey: 'about.services.03.title', bodyKey: 'about.services.03.body' },
-  { num: '04', titleKey: 'about.services.04.title', bodyKey: 'about.services.04.body' },
+  {
+    num: '01',
+    title: 'Global Rights Brokerage',
+    titleKey: 'about.services.01.title',
+    bodyKey: 'about.services.01.body',
+  },
+  {
+    num: '02',
+    title: 'Pioneering Emerging Markets',
+    titleKey: 'about.services.02.title',
+    bodyKey: 'about.services.02.body',
+  },
+  {
+    num: '03',
+    title: 'One-Stop Solution',
+    titleKey: 'about.services.03.title',
+    bodyKey: 'about.services.03.body',
+  },
+  {
+    num: '04',
+    title: 'Global Partnerships',
+    titleKey: 'about.services.04.title',
+    bodyKey: 'about.services.04.body',
+  },
 ];
 
 export const territoryKeys: number[] = [0, 1, 2, 3, 4, 5, 6];
@@ -92,9 +112,9 @@ export const genreKeyByValue: Record<Genre, 'child' | 'fiction' | 'selfDev'> = {
 };
 
 export const newsItems = [
-  { id: '1' as const },
-  { id: '2' as const },
-  { id: '3' as const },
+  { id: '1' as const, title: 'Latest update headline' },
+  { id: '2' as const, title: 'Upcoming event headline' },
+  { id: '3' as const, title: 'Notice headline' },
 ];
 
 export const managers = [

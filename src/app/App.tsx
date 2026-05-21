@@ -1,7 +1,7 @@
 import Nav from '../components/Nav';
 import Hero from '../components/Hero';
 import About from '../components/About';
-import Introduction from '../components/Introduction';
+import WhyUs from '../components/WhyUs';
 import Showcase from '../components/Showcase';
 import Books from '../components/Books';
 import Partners from '../components/Partners';
@@ -13,7 +13,7 @@ export default function App() {
       <Nav />
       <Hero />
       <About />
-      <Introduction />
+      <WhyUs />
       <Showcase />
       <Books />
       <Partners />

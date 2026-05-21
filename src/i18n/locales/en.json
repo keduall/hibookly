@@ -22,8 +22,8 @@
     "vi": "Tiếng Việt"
   },
   "hero": {
-    "eyebrow": "Bookly · International Rights Agency",
-    "headline": "Connecting knowledge,\nbridging the world"
+    "eyebrow": "Your Trusted K-Content Partner",
+    "headline": "Bridging Stories,\nExpanding Horizons"
   },
   "about": {
     "stats": {
@@ -33,20 +33,20 @@
     },
     "services": {
       "01": {
-        "title": "Global Copyright Agency",
-        "body": "Bridging premium Korean publishing content with the global market."
+        "title": "Global Rights Brokerage",
+        "body": "We serve as a hub for global rights business, connecting the value of Korean publishing content to the world."
       },
       "02": {
         "title": "Pioneering Emerging Markets",
-        "body": "Opening Vietnam and Southeast Asia as the next growth markets."
+        "body": "We proactively open Asian blue-ocean markets with high growth potential, including Vietnam and Southeast Asia."
       },
       "03": {
-        "title": "One-Stop Localization Solution",
-        "body": "Contracts, translation, and localization for seamless global publishing."
+        "title": "One-Stop Solution",
+        "body": "From contract coordination to tailored translation sampling and localization, we provide integrated support for overseas publishing."
       },
       "04": {
-        "title": "Strategic Global Partnership",
-        "body": "Building long-term, trust-based networks with global publishers."
+        "title": "Global Partnerships",
+        "body": "Built on deep trust with distinguished overseas publishers, we create strong long-term partnership networks."
       }
     }
   },
@@ -145,7 +145,27 @@
       }
     }
   },
+  "whyUs": {
+    "title": "KeduAll creates better global publishing partnerships",
+    "description": "With proven rights-business experience, Asian publishing networks, and market-led content curation, we help partners expand overseas more safely and faster.",
+    "cards": {
+      "01": {
+        "title": "Proven Expertise",
+        "body": "Backed by more than a decade of publishing and rights-business experience, our veteran team leads precise, low-risk contracts."
+      },
+      "02": {
+        "title": "Specialized Asia Network",
+        "body": "We communicate directly with major publishers and media groups across Southeast Asia, Greater China, and Japan, sharing the fastest and most accurate market insight."
+      },
+      "03": {
+        "title": "Strategic Curation",
+        "body": "Rather than listing titles mechanically, we select only content with strong potential based on local sentiment and current trend analysis."
+      }
+    }
+  },
   "partners": {
+    "title": "Partners",
+    "description": "Bookly continuously introduces NAVER Webtoon<Omniscient Reader>, Mirae N<What's Wrong with Being Ordinary>, Daekyo<Smart Brain Sticker Book>, KW Books<Debut or Die>, Next Production<Rainbow City>, Kinderland<It's Okay series>, and many more works to overseas partners.",
     "ariaLabel": "Partner logos"
   },
   "introduction": {

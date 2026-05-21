@@ -84,9 +84,10 @@ export default function Showcase() {
       id="showcase"
       title={sectionTitles.showcase}
       className="relative overflow-hidden"
+      headerClassName="mx-auto [text-align:center]"
       revealBody={false}
     >
-      <Reveal className="flex justify-start gap-2 flex-wrap mb-10" delay={220}>
+      <Reveal className="flex justify-center gap-2 flex-wrap mb-10" delay={220}>
         <button
           type="button"
           aria-label="Previous exported titles"

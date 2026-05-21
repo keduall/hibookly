@@ -29,11 +29,11 @@ export default function Story() {
               height="64"
               loading="eager"
               decoding="async"
-              alt={t('story.wisdomseller.title')}
+              alt="Wisdom Cellar"
               className="inline-block w-auto h-[34px] max-md:h-6 mr-3 mb-4 align-middle"
             />
             <h3 className="inline-block align-middle text-[28px] max-md:text-xl font-medium leading-[1.25] tracking-snug m-0 mb-4 text-ink-1">
-              {t('story.wisdomseller.title')}
+              Wisdom Cellar
             </h3>
             <p className="leading-[1.65] m-0 text-ink-3">{t('story.wisdomseller.body')}</p>
           </div>
@@ -56,11 +56,11 @@ export default function Story() {
               height="64"
               loading="eager"
               decoding="async"
-              alt={t('story.bookly.title')}
+              alt="Bookly"
               className="inline-block w-auto h-[34px] max-md:h-6 mr-3 mb-4 align-middle"
             />
             <h3 className="inline-block align-middle text-[28px] max-md:text-xl font-medium leading-[1.25] tracking-snug m-0 mb-4">
-              {t('story.bookly.title')}
+              Bookly
             </h3>
             <p className="leading-[1.65] m-0 text-night-fg-2">{t('story.bookly.body')}</p>
           </div>

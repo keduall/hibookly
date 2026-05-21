@@ -15,6 +15,24 @@ const logoSizeClass: Record<LogoSize, string> = {
   square: 'max-h-14 max-md:max-h-11',
 };
 
+function PartnerDescription({ text }: { text: string }) {
+  const parts = text.split(/([^\s,]+<[^>]+>)/g).filter(Boolean);
+
+  return (
+    <>
+      {parts.map((part, index) =>
+        part.includes('<') && part.includes('>') ? (
+          <span key={`${part}-${index}`} className="whitespace-nowrap">
+            {part}
+          </span>
+        ) : (
+          part
+        ),
+      )}
+    </>
+  );
+}
+
 function LogoCard({ logo, isDuplicate }: { logo: LogoItem; isDuplicate?: boolean }) {
   return (
     <div className="partners-marquee__item" aria-hidden={isDuplicate || undefined}>
@@ -60,12 +78,15 @@ export default function Partners() {
     <ContentSection
       id="partners"
       title={sectionTitles.partners}
-      className="min-h-0 overflow-hidden"
+      description={<PartnerDescription text={t('partners.description')} />}
+      className="!min-h-0 overflow-hidden !py-[116px] max-md:!py-[84px]"
+      containerClassName="max-w-[1320px]"
+      headerClassName="mx-auto mb-16 max-w-[860px] text-center max-md:mb-10 [&_h2]:text-[44px] [&_h2]:font-medium [&_h2]:leading-[1.28] [&_h2]:tracking-normal [&_h2]:[text-wrap:balance] max-md:[&_h2]:text-[28px] [&_p]:mx-auto [&_p]:mt-6 [&_p]:max-w-[720px] [&_p]:break-keep [&_p]:text-[17px] [&_p]:leading-[1.72]"
     >
       <div
         role="region"
         aria-label={t('partners.ariaLabel')}
-        className="partners-marquee h-[50svh] min-h-[260px] max-md:min-h-[220px] overflow-hidden relative flex items-center [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
+        className="partners-marquee max-md:min-h-[220px] overflow-hidden relative flex items-center [mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)] [-webkit-mask-image:linear-gradient(to_right,transparent,black_8%,black_92%,transparent)]"
       >
         <div className="flex w-full flex-col gap-5 max-md:gap-4">
           <LogoRow logos={logoRows[0]} />

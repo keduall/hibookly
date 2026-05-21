@@ -145,7 +145,27 @@
       }
     }
   },
+  "whyUs": {
+    "title": "KeduAll xây dựng những hợp tác xuất bản toàn cầu tốt hơn",
+    "description": "Với kinh nghiệm bản quyền đã được kiểm chứng, mạng lưới xuất bản châu Á và khả năng tuyển chọn nội dung theo thị trường, chúng tôi giúp việc mở rộng ra nước ngoài an toàn và nhanh hơn.",
+    "cards": {
+      "01": {
+        "title": "Chuyên môn đã kiểm chứng",
+        "body": "Dựa trên hơn 10 năm kinh nghiệm trong lĩnh vực xuất bản và kinh doanh bản quyền, đội ngũ kỳ cựu của chúng tôi dẫn dắt các hợp đồng chính xác, hạn chế rủi ro."
+      },
+      "02": {
+        "title": "Mạng lưới châu Á chuyên biệt",
+        "body": "Chúng tôi trao đổi trực tiếp với các nhà xuất bản và tập đoàn truyền thông lớn trên khắp Đông Nam Á, khu vực Hoa ngữ và Nhật Bản để chia sẻ thông tin thị trường nhanh và chính xác."
+      },
+      "03": {
+        "title": "Tuyển chọn chiến lược",
+        "body": "Không chỉ liệt kê đầu sách, chúng tôi chọn lọc những nội dung có tiềm năng cao dựa trên cảm quan địa phương và phân tích xu hướng mới nhất."
+      }
+    }
+  },
   "partners": {
+    "title": "Đối tác",
+    "description": "Bookly liên tục giới thiệu tới các đối tác quốc tế nhiều tác phẩm như NAVER Webtoon<Omniscient Reader>, Mirae N<What's Wrong with Being Ordinary>, Daekyo<Smart Brain Sticker Book>, KW Books<Debut or Die>, Next Production<Rainbow City>, Kinderland<It's Okay series> và nhiều tựa sách khác.",
     "ariaLabel": "Logo đối tác"
   },
   "introduction": {

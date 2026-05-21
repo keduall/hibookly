@@ -6,6 +6,11 @@ import { sectionTitles } from '../../content/homepage';
 
 const READY_TIMEOUT_MS = 1500;
 const timelineItems = ['trust', 'operations', 'expansion'] as const;
+const timelineTitles: Record<(typeof timelineItems)[number], string> = {
+  trust: 'A Foundation of Trust',
+  operations: 'Transparent, Professional Operations',
+  expansion: "Bookly's Global Expansion",
+};
 
 const timelineMedia: Record<
   (typeof timelineItems)[number],
@@ -320,7 +325,7 @@ export default function LegacyTimeline() {
                     className="legacy-timeline__stagger m-0 text-[34px] font-medium leading-[1.06] tracking-[0.04em] text-ink-1 max-md:text-2xl"
                     style={{ '--legacy-stagger-delay': '280ms' } as CSSProperties}
                   >
-                    {t(`legacyTimeline.items.${item}.title`)}
+                    {timelineTitles[item]}
                   </h3>
                 </article>
               </Reveal>

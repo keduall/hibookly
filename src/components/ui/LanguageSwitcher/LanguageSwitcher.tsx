@@ -26,7 +26,7 @@ export default function LanguageSwitcher() {
           aria-checked={lang === current}
           onClick={() => changeLanguage(lang, current, i18n)}
         >
-          {t(`languageSwitcher.${lang}`)}
+          <span className="lang-switcher__label">{t(`languageSwitcher.${lang}`)}</span>
         </button>
       ))}
     </div>

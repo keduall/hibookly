@@ -68,7 +68,7 @@ export default function Nav() {
             </a>
           ))}
         </div>
-        <div className="flex items-center gap-2 justify-self-end">
+        <div className="flex items-center gap-6 justify-self-end">
           <div className="max-md:hidden">
             <LanguageSwitcher />
           </div>
